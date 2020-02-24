@@ -141,8 +141,9 @@ Please generate Github issue if you found bug in any version. We are try to be r
 
 ## Other Dashboard Products
 
- - [Free Bootstrap 4 Admin Template](https://codedthemes.com/item/category/freebies/)
- - [Free Angular Dashboard Template](https://codedthemes.com/item/category/freebies/)
+ - [Free Bootstrap 4 Admin Template](https://codedthemes.com/item/category/free-templates/free-bootstrap-admin-templates)
+ - [Free React Dashboard Template](https://codedthemes.com/item/category/free-templates/free-react-admin-templates)
+ - [Free Angular Dashboard Template](https://codedthemes.com/item/category/free-templates/free-angular-admin-templates)
  - [Premium Bootstrap & Angular Admin Template](https://codedthemes.com/item/category/templates/admin-templates/)
  
 ## Social Profiles
