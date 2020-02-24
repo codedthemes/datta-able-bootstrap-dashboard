@@ -1,10 +1,10 @@
-# Datta Able Bootstrap 4 Admin Template 
+# Datta Able Free Bootstrap 4 Admin Template
 
-Datta Able dashboard template made using Bootstrap 4 framework, It is a free lite version of [Datta Able Pro](https://codedthemes.com/item/datta-able-premium/) Dashboard Template that makes you fulfill your Dashboard needs.
+Datta Able Free Dashboard Template made using Bootstrap 4 framework, It is a free lite version of [Datta Able Pro](https://codedthemes.com/item/datta-able-premium/) Dashboard Template that makes you fulfill your Dashboard needs.
 
 ![Datta Able Free Admin Template Preview Image](http://html.codedthemes.com/datta-able/bootstrap/adv-banner/git-datta-free.png)
 
-Datta Able admin template comes with variety of components like Button, Badges, Tabs, Breadcrumb, Icons, Form elements, Table, Charts & authentication pages.
+Datta Able Admin Template comes with variety of components like Button, Badges, Tabs, Breadcrumb, Icons, Form elements, Table, Charts & Authentication pages.
 
 The code structure is high flexible to use and modify. 
 
@@ -18,7 +18,7 @@ Check out live preview of Datta Able lite version & download it.
 
 #### Preview
 
- - [Demo](http://lite.codedthemes.com/datta-able/bootstrap/)
+ - [Demo](http://lite.codedthemes.com/datta-able/bootstrap)
 
 #### Download
 
@@ -30,11 +30,11 @@ Check out live preview of Datta Able lite version & download it.
 Datta Able Pro Admin Template is available to purchase. Visit its numerous demos and make your purchase decision.
 #### Preview
 
- - [Demo](https://html.codedthemes.com/datta-able/index.html)
+ - [Demo](http://html.codedthemes.com/datta-able/bootstrap/default)
 
 #### Download
 
- - [Purchase from CodedThemes](https://codedthemes.com/item/datta-able-premium/)
+ - [Purchase from CodedThemes](https://codedthemes.com/item/datta-able-premium)
 
 ## Table of contents
 
@@ -128,11 +128,7 @@ We are continuously working in Datta Able Project and going to make it a awesome
 
 ## Author
 
-Design and code is completely written by CodedThemes's design and development team. We are happy to welcome the contributors work for our all repositiories.
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://github.com/codedthemes/datta-able-bootstrap-dashboard/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Design and code is completely written by CodedThemes's design and development team. We are happy to welcome the contributors work for our all repositories.
 
 ## Issues
 
