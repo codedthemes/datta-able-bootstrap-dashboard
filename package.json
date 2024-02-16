@@ -1,0 +1,40 @@
+{
+  "name": "datta-able-vanila-js",
+  "version": "2.0.0",
+  "description": "Datta able Bootstrap 5 Admin Template",
+  "main": "index.js",
+  "author": "Codedthemes",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "del": "^6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cssbeautify": "^3.0.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-inject": "^5.0.5",
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-smushit": "^1.2.0",
+    "gulp-uglify": "^3.0.2",
+    "merge-stream": "^2.0.0",
+    "prettier": "2.8.8",
+    "sass": "^1.63.4"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "apexcharts": "^3.41.0",
+    "bootstrap": "^5.3.2",
+    "browser-sync": "^2.29.3",
+    "clipboard": "^2.0.11",
+    "feather-icons": "^4.29.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "jsvectormap": "^1.5.3",
+    "simplebar": "^6.2.5"
+  }
+}

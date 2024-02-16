@@ -1,0 +1,79 @@
+<!-- Required Js -->
+<script src="../assets/js/plugins/popper.min.js"></script>
+<script src="../assets/js/plugins/simplebar.min.js"></script>
+<script src="../assets/js/plugins/bootstrap.min.js"></script>
+<script src="../assets/js/fonts/custom-font.js"></script>
+<script src="../assets/js/pcoded.js"></script>
+<script src="../assets/js/plugins/feather.min.js"></script>
+
+@@if (pc_dark_layout == 'default') {
+<script>
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        dark_layout = 'true';
+    } else {
+        dark_layout = 'false';
+    }
+    layout_change_default();
+    if (dark_layout == 'true') {
+        layout_change('dark');
+    } else {
+        layout_change('light');
+    }
+</script>
+}
+@@if (pc_dark_layout != 'default') {
+@@if (pc_dark_layout == 'true') {
+<script>layout_change('dark');</script>
+}
+@@if (pc_dark_layout == 'false') {
+<script>layout_change('light');</script>
+}
+}
+@@if (pc_box_container == 'true') {
+<script>change_box_container('true');</script>
+}
+@@if (pc_box_container == 'false') {
+<script>change_box_container('false');</script>
+}
+@@if (pc_caption_show == 'true') {
+<script>layout_caption_change('true');</script>
+}
+@@if (pc_caption_show == 'false') {
+<script>layout_caption_change('false');</script>
+}
+@@if (pc_rtl_layout == 'true') {
+<script>layout_rtl_change('true');</script>
+}
+@@if (pc_rtl_layout == 'false') {
+<script>layout_rtl_change('false');</script>
+}
+@@if (pc_preset_theme != ""){
+<script>preset_change("@@pc_preset_theme");</script>
+}
+@@if (pc_sidebar_theme == 'dark') {
+<script>layout_theme_sidebar_change('false');</script>
+}
+@@if (pc_sidebar_theme == 'light') {
+<script>layout_theme_sidebar_change('true');</script>
+}
+@@if (pc_header_theme != ""){
+<script>header_change("@@pc_header_theme");</script>
+}
+@@if (pc_navbar_bg_theme != ""){
+<script>navbar_change("@@pc_navbar_bg_theme");</script>
+}
+@@if (pc_logo_theme != ""){
+<script>logo_change("@@pc_logo_theme");</script>
+}
+@@if (pc_navbar_caption_theme != ""){
+<script>caption_change("@@pc_navbar_caption_theme");</script>
+}
+@@if (pc_navbar_image_theme != ""){
+<script>nav_image_change("@@pc_navbar_image_theme");</script>
+}
+@@if (pc_nav_dropdown_icon_theme != ""){
+<script>drp_menu_icon_change("@@pc_nav_dropdown_icon_theme");</script>
+}
+@@if (pc_nav_dropdown_link_icon_theme != ""){
+<script>drp_menu_link_icon_change("@@pc_nav_dropdown_link_icon_theme");</script>
+}
