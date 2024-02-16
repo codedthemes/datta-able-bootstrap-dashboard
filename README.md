@@ -2,7 +2,7 @@
 
 Datta Able Free Dashboard Template made using Bootstrap 5 framework, It is a free lite version of [Datta Able Pro](https://codedthemes.com/item/datta-able-premium/) Dashboard Template that makes you fulfill your Dashboard needs.
 
-![Datta Able Free Admin Template Preview Image](http://html.codedthemes.com/datta-able/bootstrap/adv-banner/git-datta-free.png)
+![Datta Able Free Admin Template Preview Image](https://org-public-assets.s3.us-west-2.amazonaws.com/Free-Version-Banners/GITHUB-FREE-BOOTSTRAP-REPO-Datta+able.jpg)
 
 Datta Able Admin Template comes with variety of components like Button, Badges, Tabs, Breadcrumb, Icons, Form elements, Table, Charts & Authentication pages.
 
