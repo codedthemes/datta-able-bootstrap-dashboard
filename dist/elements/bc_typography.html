@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- [Head] start -->
+
+<head>
+  <title>Typography | Datta able Dashboard Template</title>
+  <!-- [Meta] -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Datta able is trending dashboard template made using Bootstrap 5 design framework. Datta able is available in Bootstrap, React, CodeIgniter, Angular,  and .net Technologies.">
+  <meta name="keywords" content="Bootstrap admin template, Dashboard UI Kit, Dashboard Template, Backend Panel, react dashboard, angular dashboard">
+  <meta name="author" content="Codedthemes">
+
+  <!-- [Favicon] icon -->
+  <link rel="icon" href="../assets/images/favicon.svg" type="image/x-icon"> <!-- [Font] Family -->
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<!-- [Tabler Icons] https://tablericons.com -->
+<link rel="stylesheet" href="../assets/fonts/tabler-icons.min.css" >
+<!-- [Feather Icons] https://feathericons.com -->
+<link rel="stylesheet" href="../assets/fonts/feather.css" >
+<!-- [Font Awesome Icons] https://fontawesome.com/icons -->
+<link rel="stylesheet" href="../assets/fonts/fontawesome.css" >
+<!-- [Material Icons] https://fonts.google.com/icons -->
+<link rel="stylesheet" href="../assets/fonts/material.css" >
+<!-- [Template CSS Files] -->
+<link rel="stylesheet" href="../assets/css/style.css" id="main-style-link" >
+<link rel="stylesheet" href="../assets/css/style-preset.css" >
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-14K1GBX9FG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'G-14K1GBX9FG');
+</script>
+<!-- WiserNotify -->
+<script>
+  !(function () {
+    if (window.t4hto4) console.log('WiserNotify pixel installed multiple time in this page');
+    else {
+      window.t4hto4 = !0;
+      var t = document,
+        e = window,
+        n = function () {
+          var e = t.createElement('script');
+          (e.type = 'text/javascript'),
+            (e.async = !0),
+            (e.src = 'https://pt.wisernotify.com/pixel.js?ti=1jclj6jkfc4hhry'),
+            document.body.appendChild(e);
+        };
+      'complete' === t.readyState ? n() : window.attachEvent ? e.attachEvent('onload', n) : e.addEventListener('load', n, !1);
+    }
+  })();
+</script>
+<!-- Microsoft clarity -->
+<script type="text/javascript">
+  (function (c, l, a, r, i, t, y) {
+    c[a] =
+      c[a] ||
+      function () {
+        (c[a].q = c[a].q || []).push(arguments);
+      };
+    t = l.createElement(r);
+    t.async = 1;
+    t.src = 'https://www.clarity.ms/tag/' + i;
+    y = l.getElementsByTagName(r)[0];
+    y.parentNode.insertBefore(t, y);
+  })(window, document, 'clarity', 'script', 'gkn6wuhrtb');
+</script>
+
+</head>
+<!-- [Head] end -->
+<!-- [Body] Start -->
+
+<body>
+  <!-- [ Pre-loader ] start -->
+<div class="loader-bg">
+  <div class="loader-track">
+    <div class="loader-fill"></div>
+  </div>
+</div>
+<!-- [ Pre-loader ] End -->
+ <!-- [ Sidebar Menu ] start -->
+<nav class="pc-sidebar">
+  <div class="navbar-wrapper">
+    <div class="m-header">
+      <a href="../dashboard/index.html" class="b-brand text-primary">
+        <!-- ========   Change your logo from here   ============ -->
+        <img src="../assets/images/logo-white.svg" class="img-fluid logo-lg" alt="logo">
+      </a>
+    </div>
+    <div class="navbar-content">
+      <ul class="pc-navbar">
+        <li class="pc-item pc-caption">
+          <label>Navigation</label>
+        </li>
+        <li class="pc-item">
+          <a href="../dashboard/index.html" class="pc-link">
+            <span class="pc-micon">
+              <i data-feather="home"></i>
+            </span>
+            <span class="pc-mtext">Dashboard</span>
+          </a>
+        </li>
+        <li class="pc-item pc-caption">
+          <label>UI Components</label>
+          <i data-feather="feather"></i>
+        </li>
+        <li class="pc-item">
+          <a href="../elements/bc_typography.html" class="pc-link">
+            <span class="pc-micon"><i data-feather="droplet"></i></span>
+            <span class="pc-mtext">Color</span>
+          </a>
+        </li>
+        <li class="pc-item">
+          <a href="../elements/bc_typography.html" class="pc-link">
+            <span class="pc-micon"><i data-feather="type"></i></span>
+            <span class="pc-mtext">Typography</span>
+          </a>
+        </li>
+        <li class="pc-item">
+          <a href="../elements/icon-feather.html" class="pc-link">
+            <span class="pc-micon"><i data-feather="feather"></i></span>
+            <span class="pc-mtext">Icons</span>
+          </a>
+        </li>
+        <li class="pc-item pc-caption">
+          <label>Pages</label>
+          <i data-feather="monitor"></i>
+        </li> 
+        <li class="pc-item">
+          <a href="../pages/login-v1.html" class="pc-link">
+            <span class="pc-micon"><i data-feather="lock"></i></span>
+            <span class="pc-mtext">Login</span>
+          </a>
+        </li>
+        <li class="pc-item">
+          <a href="../pages/register-v1.html" class="pc-link">
+            <span class="pc-micon"><i data-feather="user-plus"></i></span>
+            <span class="pc-mtext">Register</span>
+          </a>
+        </li>
+        <li class="pc-item pc-caption">
+          <label>Other</label>
+          <i data-feather="sidebar"></i>
+        </li>
+        <li class="pc-item pc-hasmenu">
+          <a href="#!" class="pc-link">
+            <span class="pc-micon">
+              <i data-feather="align-right"></i>
+            </span>
+            <span class="pc-mtext">Menu levels</span><span class="pc-arrow"><i class="ti ti-chevron-right"></i></span>
+          </a>
+          <ul class="pc-submenu">
+            <li class="pc-item"><a class="pc-link" href="#!">Level 2.1</a></li>
+            <li class="pc-item pc-hasmenu">
+              <a href="#!" class="pc-link"
+                >Level 2.2<span class="pc-arrow"><i class="ti ti-chevron-right"></i></span
+              ></a>
+              <ul class="pc-submenu">
+                <li class="pc-item"><a class="pc-link" href="#!">Level 3.1</a></li>
+                <li class="pc-item"><a class="pc-link" href="#!">Level 3.2</a></li>
+                <li class="pc-item pc-hasmenu">
+                  <a href="#!" class="pc-link"
+                    >Level 3.3<span class="pc-arrow"><i class="ti ti-chevron-right"></i></span
+                  ></a>
+                  <ul class="pc-submenu">
+                    <li class="pc-item"><a class="pc-link" href="#!">Level 4.1</a></li>
+                    <li class="pc-item"><a class="pc-link" href="#!">Level 4.2</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="pc-item pc-hasmenu">
+              <a href="#!" class="pc-link"
+                >Level 2.3<span class="pc-arrow"><i class="ti ti-chevron-right"></i></span
+              ></a>
+              <ul class="pc-submenu">
+                <li class="pc-item"><a class="pc-link" href="#!">Level 3.1</a></li>
+                <li class="pc-item"><a class="pc-link" href="#!">Level 3.2</a></li>
+                <li class="pc-item pc-hasmenu">
+                  <a href="#!" class="pc-link">
+                    Level 3.3
+                    <span class="pc-arrow"><i class="ti ti-chevron-right"></i></span>
+                  </a>
+                  <ul class="pc-submenu">
+                    <li class="pc-item"><a class="pc-link" href="#!">Level 4.1</a></li>
+                    <li class="pc-item"><a class="pc-link" href="#!">Level 4.2</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="pc-item">
+          <a href="../other/sample-page.html" class="pc-link">
+            <span class="pc-micon"><i data-feather="sidebar"></i></span>
+            <span class="pc-mtext">Sample page</span>
+          </a>
+        </li>
+
+      </ul>
+      <div class="card pc-user-card my-3 bg-white bg-opacity-10">
+        <div class="card-body text-center">
+          <img src="../assets/images/application/img-coupon.png" alt="img" class="img-fluid w-50">
+          <h5 class="mb-0 text-white mt-1">Able Pro</h5>
+          <p class="text-white">Checkout pro features</p>
+          <a href="https://codedthemes.com/item/datta-able-bootstrap-admin-template/" target="_blank" class="btn btn-warning">
+            <svg class="pc-icon me-2">
+              <use xlink:href="#custom-logout-1-outline"></use>
+            </svg>
+            Upgrade to Pro
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- [ Sidebar Menu ] end --> <!-- [ Header Topbar ] start -->
+<header class="pc-header">
+  <div class="header-wrapper"> <!-- [Mobile Media Block] start -->
+<div class="me-auto pc-mob-drp">
+  <ul class="list-unstyled">
+    <!-- ======= Menu collapse Icon ===== -->
+    <li class="pc-h-item pc-sidebar-collapse">
+      <a href="#" class="pc-head-link ms-0" id="sidebar-hide">
+        <i data-feather="menu"></i>
+      </a>
+    </li>
+    <li class="pc-h-item pc-sidebar-popup">
+      <a href="#" class="pc-head-link ms-0" id="mobile-collapse">
+        <i data-feather="menu"></i>
+      </a>
+    </li>
+    <li class="dropdown pc-h-item">
+      <a
+        class="pc-head-link dropdown-toggle arrow-none m-0 trig-drp-search"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-haspopup="false"
+        aria-expanded="false"
+      >
+        <i data-feather="search"></i>
+      </a>
+      <div class="dropdown-menu pc-h-dropdown drp-search">
+        <form class="px-3 py-2">
+          <input type="search" class="form-control border-0 shadow-none" placeholder="Search here. . ." />
+        </form>
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- [Mobile Media Block end] -->
+<div class="ms-auto">
+  <ul class="list-unstyled">
+    <li class="dropdown pc-h-item">
+      <a
+        class="pc-head-link dropdown-toggle arrow-none me-0"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-haspopup="false"
+        aria-expanded="false"
+      >
+        <i data-feather="bell"></i>
+        <span class="badge bg-success pc-h-badge">3</span>
+      </a>
+      <div class="dropdown-menu dropdown-notification dropdown-menu-end pc-h-dropdown">
+        <div class="dropdown-header d-flex align-items-center justify-content-between">
+          <h5 class="m-0">Notifications</h5>
+          <a href="#!" class="btn btn-link btn-sm">Mark all read</a>
+        </div>
+        <div class="dropdown-body text-wrap header-notification-scroll position-relative" style="max-height: calc(100vh - 215px)">
+          <p class="text-span">Today</p>
+          <div class="card mb-0">
+            <div class="card-body">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img class="img-radius avtar rounded-0" src="../assets/images/user/avatar-1.jpg" alt="Generic placeholder image">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <span class="float-end text-sm text-muted">2 min ago</span>
+                  <h5 class="text-body mb-2">UI/UX Design</h5>
+                  <p class="mb-0"
+                    >Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type</p
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-0">
+            <div class="card-body">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img class="img-radius avtar rounded-0" src="../assets/images/user/avatar-2.jpg" alt="Generic placeholder image">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <span class="float-end text-sm text-muted">1 hour ago</span>
+                  <h5 class="text-body mb-2">Message</h5>
+                  <p class="mb-0">Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="text-span">Yesterday</p>
+          <div class="card mb-0">
+            <div class="card-body">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img class="img-radius avtar rounded-0" src="../assets/images/user/avatar-3.jpg" alt="Generic placeholder image">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <span class="float-end text-sm text-muted">2 hour ago</span>
+                  <h5 class="text-body mb-2">Forms</h5>
+                  <p class="mb-0"
+                    >Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type</p
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-0">
+            <div class="card-body">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img class="img-radius avtar rounded-0" src="../assets/images/user/avatar-4.jpg" alt="Generic placeholder image">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <span class="float-end text-sm text-muted">12 hour ago</span>
+                  <h5 class="text-body mb-2">Challenge invitation</h5>
+                  <p class="mb-2"><span class="text-dark">Jonny aber</span> invites to join the challenge</p>
+                  <button class="btn btn-sm btn-outline-secondary me-2">Decline</button>
+                  <button class="btn btn-sm btn-primary">Accept</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-0">
+            <div class="card-body">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img class="img-radius avtar rounded-0" src="../assets/images/user/avatar-5.jpg" alt="Generic placeholder image">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <span class="float-end text-sm text-muted">5 hour ago</span>
+                  <h5 class="text-body mb-2">Security</h5>
+                  <p class="mb-0"
+                    >Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type</p
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center py-2">
+          <a href="#!" class="link-danger">Clear all Notifications</a>
+        </div>
+      </div>
+    </li>
+    <li class="dropdown pc-h-item header-user-profile">
+      <a
+        class="pc-head-link dropdown-toggle arrow-none me-0"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-haspopup="false"
+        data-bs-auto-close="outside"
+        aria-expanded="false"
+      >
+        <i data-feather="user"></i>
+      </a>
+      <div class="dropdown-menu dropdown-user-profile dropdown-menu-end pc-h-dropdown p-0 overflow-hidden">
+        <div class="dropdown-header d-flex align-items-center justify-content-between bg-primary">
+          <div class="d-flex my-2">
+            <div class="flex-shrink-0">
+              <img src="../assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar wid-35" />
+            </div>
+            <div class="flex-grow-1 ms-3">
+              <h6 class="text-white mb-1">Carson Darrin 🖖</h6>
+              <span class="text-white text-opacity-75">carson.darrin@company.io</span>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown-body">
+          <div class="profile-notification-scroll position-relative" style="max-height: calc(100vh - 225px)">
+            <a href="#" class="dropdown-item">
+              <span>
+                <svg class="pc-icon text-muted me-2">
+                  <use xlink:href="#custom-setting-outline"></use>
+                </svg>
+                <span>Settings</span>
+              </span>
+            </a>
+            <a href="#" class="dropdown-item">
+              <span>
+                <svg class="pc-icon text-muted me-2">
+                  <use xlink:href="#custom-share-bold"></use>
+                </svg>
+                <span>Share</span>
+              </span>
+            </a>
+            <a href="#" class="dropdown-item">
+              <span>
+                <svg class="pc-icon text-muted me-2">
+                  <use xlink:href="#custom-lock-outline"></use>
+                </svg>
+                <span>Change Password</span>
+              </span>
+            </a>
+            <div class="d-grid my-2">
+              <button class="btn btn-primary">
+                <svg class="pc-icon me-2">
+                  <use xlink:href="#custom-logout-1-outline"></use></svg
+                >Logout
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+ </div>
+</header>
+<!-- [ Header ] end -->
+
+
+
+  <!-- [ Main Content ] start -->
+  <div class="pc-container">
+    <div class="pc-content">
+      <!-- [ breadcrumb ] start -->
+      <div class="page-header">
+        <div class="page-block">
+          <div class="row align-items-center">
+            <div class="col-md-12">
+              <div class="page-header-title">
+                <h5 class="mb-0">Typography</h5>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <ul class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="../dashboard/index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="javascript: void(0)">Basic UI</a></li>
+                <li class="breadcrumb-item" aria-current="page">Typography</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- [ breadcrumb ] end -->
+
+      <!-- [ Main Content ] start -->
+      <div class="row">
+        <!-- [ Typography ] start -->
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="card-header">
+              <h5>Headings</h5>
+              <p><span class="badges">.h1</span> through .h6 classes are also available, for when you want to match
+                the font styling of a heading
+                but cannot use the associated HTML element.</p>
+            </div>
+            <div class="card-body pc-component">
+              <h1>h1. Heading</h1>
+              <div class="clearfix"></div>
+              <h2>h2. Heading</h2>
+              <div class="clearfix"></div>
+              <h3>This is a H3</h3>
+              <div class="clearfix"></div>
+              <h4>This is a H4</h4>
+              <div class="clearfix"></div>
+              <h5>This is a H5</h5>
+              <div class="clearfix"></div>
+              <h6>This is a H6</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="card-header">
+              <h5>Display Headings</h5>
+            </div>
+            <div class="card-body pc-component">
+              <h1 class="display-1">Display 1</h1>
+              <h1 class="display-2">Display 2</h1>
+              <h1 class="display-3">Display 3</h1>
+              <h1 class="display-4">Display 4</h1>
+              <h1 class="display-5">Display 5</h1>
+              <h1 class="display-6">Display 6</h1>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h5>Inline Text Elements</h5>
+            </div>
+            <div class="card-body pc-component">
+              <p class="lead m-t-0">Your title goes here</p>
+              You can use the mark tag to
+              <mark>highlight</mark> text.
+              <br>
+              <del>This line of text is meant to be treated as deleted text.</del>
+              <br>
+              <ins>This line of text is meant to be treated as an addition to the document.</ins>
+              <br>
+              <strong>rendered as bold text</strong>
+              <br>
+              <em>rendered as italicized text</em>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h5>Contextual Text Colors</h5>
+            </div>
+            <div class="card-body pc-component">
+              <p class="text-muted mb-1"> Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh. </p>
+              <p class="text-primary mb-1"> Nullam id dolor id nibh ultricies vehicula ut id elit. </p>
+              <p class="text-success mb-1"> Duis mollis, est non commodo luctus, nisi erat porttitor ligula. </p>
+              <p class="text-info mb-1"> Maecenas sed diam eget risus varius blandit sit amet non magna. </p>
+              <p class="text-warning mb-1"> Etiam porta sem malesuada magna mollis euismod. </p>
+              <p class="text-danger mb-1"> Donec ullamcorper nulla non metus auctor fringilla. </p>
+              <p class="text-dark mb-1"> Nullam id dolor id nibh ultricies vehicula ut id elit. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h5>Unordered</h5>
+            </div>
+            <div class="card-body pc-component">
+              <ul>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Consectetur adipiscing elit</li>
+                <li>Integer molestie lorem at massa</li>
+                <li>Facilisis in pretium nisl aliquet</li>
+                <li>Nulla volutpat aliquam velit
+                  <ul>
+                    <li>Phasellus iaculis neque</li>
+                    <li>Purus sodales ultricies</li>
+                    <li>Vestibulum laoreet porttitor sem</li>
+                    <li>Ac tristique libero volutpat at</li>
+                  </ul>
+                </li>
+                <li>Faucibus porta lacus fringilla vel</li>
+                <li>Aenean sit amet erat nunc</li>
+                <li>Eget porttitor lorem</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h5>Ordered</h5>
+            </div>
+            <div class="card-body pc-component">
+              <ol>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Consectetur adipiscing elit</li>
+                <li>Integer molestie lorem at massa</li>
+                <li>Facilisis in pretium nisl aliquet</li>
+                <li>Nulla volutpat aliquam velit
+                  <ul>
+                    <li>Phasellus iaculis neque</li>
+                    <li>Purus sodales ultricies</li>
+                    <li>Vestibulum laoreet porttitor sem</li>
+                    <li>Ac tristique libero volutpat at</li>
+                  </ul>
+                </li>
+                <li>Faucibus porta lacus fringilla vel</li>
+                <li>Aenean sit amet erat nunc</li>
+                <li>Eget porttitor lorem</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h5>Unstyled</h5>
+            </div>
+            <div class="card-body pc-component">
+              <ul class="list-unstyled">
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Integer molestie lorem at massa
+                  <ul>
+                    <li>Phasellus iaculis neque</li>
+                  </ul>
+                </li>
+                <li>Faucibus porta lacus fringilla vel</li>
+                <li>Eget porttitor lorem</li>
+              </ul>
+              <h5>Inline</h5>
+              <hr>
+              <ul class="list-inline m-b-0">
+                <li class="list-inline-item">Lorem ipsum</li>
+                <li class="list-inline-item">Phasellus iaculis</li>
+                <li class="list-inline-item">Nulla volutpat</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h5>Blockquotes</h5>
+            </div>
+            <div class="card-body pc-component">
+              <p class="text-muted mb-1"> Your awesome text goes here. </p>
+              <blockquote class="blockquote">
+                <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                  ante.</p>
+                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
+                </footer>
+              </blockquote>
+              <p class="text-muted m-b-15 m-t-20"> Add <code>.text-end</code> for a blockquote with right-aligned
+                content. </p>
+              <blockquote class="blockquote text-end">
+                <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                  ante.</p>
+                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h5>Horizontal Description</h5>
+            </div>
+            <div class="card-body pc-component">
+              <dl class="dl-horizontal row">
+                <dt class="col-sm-3">Description lists</dt>
+                <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
+
+                <dt class="col-sm-3">Euismod</dt>
+                <dd class="col-sm-9">Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
+                </dd>
+                <dd class="col-sm-9">Donec id elit non mi porta gravida at eget metus.</dd>
+
+                <dt class="col-sm-3">Malesuada porta</dt>
+                <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+
+                <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
+                <dd class="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+                  fermentum massa justo sit amet risus.</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <!-- [ Typography ] end -->
+      </div>
+      <!-- [ Main Content ] end -->
+    </div>
+  </div>
+  <!-- [ Main Content ] end -->
+  <footer class="pc-footer">
+    <div class="footer-wrapper container-fluid">
+      <div class="row">
+        <div class="col my-1">
+          <p class="m-0"
+            >Datta able &#9829; crafted by Team <a href="https://codedthemes.com/" target="_blank">Codedthemes</a></p
+          >
+        </div>
+        <div class="col-auto my-1">
+          <ul class="list-inline footer-link mb-0">
+            <li class="list-inline-item"><a href="../index.html">Home</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer> <!-- Required Js -->
+<script src="../assets/js/plugins/popper.min.js"></script>
+<script src="../assets/js/plugins/simplebar.min.js"></script>
+<script src="../assets/js/plugins/bootstrap.min.js"></script>
+<script src="../assets/js/fonts/custom-font.js"></script>
+<script src="../assets/js/pcoded.js"></script>
+<script src="../assets/js/plugins/feather.min.js"></script>
+
+
+
+
+
+<script>layout_change('light');</script>
+
+
+
+
+<script>change_box_container('false');</script>
+
+
+<script>layout_caption_change('true');</script>
+
+
+
+
+<script>layout_rtl_change('false');</script>
+
+
+<script>preset_change("preset-1");</script>
+
+
+<script>layout_theme_sidebar_change('false');</script>
+
+
+
+
+
+
+
+
+
+  
+</body>
+<!-- [Body] end -->
+
+</html>

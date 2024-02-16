@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- [Head] start -->
+
+<head>
+  @@include('../layouts/head-page-meta.html', {'title': 'Register'}) @@include('../layouts/head-css.html')
+</head>
+<!-- [Head] end -->
+<!-- [Body] Start -->
+
+<body @@bodySetup>
+  @@include('../layouts/loader.html')
+  <div class="auth-main">
+    <div class="auth-wrapper v1">
+      <div class="auth-form">
+        <div class="position-relative my-5">
+          <div class="auth-bg">
+            <span class="r"></span>
+            <span class="r s"></span>
+            <span class="r s"></span>
+            <span class="r"></span>
+          </div>
+          <div class="card mb-0">
+            <div class="card-body">
+              <div class="text-center">
+                <a href="#"><img src="../assets/images/logo-dark.svg" alt="img"></a>
+              </div>
+              <h4 class="text-center f-w-500 mt-4 mb-3">Sign up</h4>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group mb-3">
+                    <input type="text" class="form-control" placeholder="First Name">
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group mb-3">
+                    <input type="text" class="form-control" placeholder="Last Name">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group mb-3">
+                <input type="email" class="form-control" placeholder="Email Address">
+              </div>
+              <div class="form-group mb-3">
+                <input type="password" class="form-control" placeholder="Password">
+              </div>
+              <div class="form-group mb-3">
+                <input type="password" class="form-control" placeholder="Confirm Password">
+              </div>
+              <div class="d-flex mt-1 justify-content-between">
+                <div class="form-check">
+                  <input class="form-check-input input-primary" type="checkbox" id="customCheckc1" checked="">
+                  <label class="form-check-label text-muted" for="customCheckc1">I agree to all the Terms & Condition</label>
+                </div>
+              </div>
+              <div class="text-center mt-4">
+                <button type="button" class="btn btn-primary shadow px-sm-4">Sign up</button>
+              </div>
+              <div class="d-flex justify-content-between align-items-end mt-4">
+                <h6 class="f-w-500 mb-0">Already have an Account?</h6>
+                <a href="#" class="link-primary">Login</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- [ Main Content ] end -->
+  @@include('../layouts/footer-js.html') 
+</body>
+<!-- [Body] end -->
+
+</html>

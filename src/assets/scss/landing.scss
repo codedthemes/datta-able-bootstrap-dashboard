@@ -1,0 +1,192 @@
+/**======================================================================
+=========================================================================
+Template Name: Datta able - Bootstrap Admin Template
+Author: Codedthemes
+Support: https://Codedthemes.authordesk.app
+File: style.css
+=========================================================================
+=================================================================================== */
+
+// main framework
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'settings/color-variables';
+@import 'settings/bootstrap-variables';
+@import 'settings/theme-variables';
+
+@import 'node_modules/bootstrap/scss/mixins';
+
+section {
+  padding: 100px 0;
+}
+
+.title {
+  margin-bottom: 50px;
+
+  h2 {
+    margin-bottom: 18px;
+  }
+
+  strong {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 130px;
+    background-position: bottom left;
+    padding-bottom: 5px;
+  }
+}
+
+.landing-page {
+  overflow-x: hidden;
+  background: #fff;
+
+  .btn {
+    border-radius: 50px;
+  }
+  .pct-c-btn{
+    display: none;
+  }
+
+  @media (min-width: 1600px) {
+    .container {
+      max-width: 1200px;
+    }
+  }
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1099;
+  top: 0;
+  transition: all .2s ease-in-out;
+
+  &.top-nav-collapse.default {
+    padding: 26px 0;
+    @include media-breakpoint-up(md) { 
+      background: transparent !important;
+    }
+    box-shadow: none;
+  }
+
+  &.default,
+  &.top-nav-collapse {
+    padding: 14px 0;
+    box-shadow: 0px 6px 10px 0px rgba(12, 21, 70, 0.03);
+  }
+
+  .nav-link {
+    color: var(--bs-body-color);
+    font-weight: 500;
+
+    &:active,
+    &:hover,
+    &:focus {
+      color: var(--bs-primary);
+    }
+  }
+}
+
+header {
+  overflow: hidden;
+  position: relative;
+  padding: 180px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-size: cover;
+  flex-direction: column;
+  background-color: $brand-color1;
+  --bg-size: 400%;
+  --color-one: rgb(37, 161, 244);
+  --color-two: rgb(249, 31, 169);
+
+  background: linear-gradient(90deg,
+      var(--color-one),
+      var(--color-two),
+      var(--color-one)) 0 0 / var(--bg-size) 100%;
+  animation: move-bg 24s infinite linear;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.95);
+    z-index: 1;
+  }
+
+  .img-header {
+    border-radius: 14px 14px 0 0;
+    border: 4px solid #fff;
+    box-shadow: 0px -6px 10px 0px rgba(12, 21, 70, 0.03);
+  }
+
+  .container {
+    position: relative;
+    z-index: 5;
+  }
+
+  .img-wave {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    z-index: 6;
+    filter: drop-shadow(0px -6px 10px rgba(12, 21, 70, 0.05));
+  }
+}
+
+.hero-text-gradient {
+  --bg-size: 400%;
+  --color-one: rgb(37, 161, 244);
+  --color-two: rgb(249, 31, 169);
+
+  background: linear-gradient(90deg,
+      var(--color-one),
+      var(--color-two),
+      var(--color-one)) 0 0 / var(--bg-size) 100%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: move-bg 24s infinite linear;
+}
+
+@keyframes move-bg {
+  to {
+    background-position: var(--bg-size) 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  section {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .title {
+    margin-bottom: 10px;
+  }
+
+  .navbar.top-nav-collapse.default {
+    padding: 14px 0;
+  }
+
+  .title strong {
+    background-size: 95px;
+  }
+
+  header {
+    text-align: center;
+    padding: 120px 0 0;
+    min-height: auto;
+
+    h1 {
+      font-size: 25px;
+    }
+  }
+}
