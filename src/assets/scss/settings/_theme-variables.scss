@@ -26,7 +26,7 @@
   --pc-header-shadow: none;
 
   // card
-  --pc-card-box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
+  --pc-card-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
 
   // horizontal menu
   --pc-header-submenu-background: #{$white};
@@ -103,10 +103,10 @@ $warning-border-subtle: $yellow-200;
 $danger-border-subtle: $red-200;
 $light-border-subtle: $gray-200;
 $dark-border-subtle: $gray-500;
-$brand-colors:(
-  'brand-color-1' :$brand-color1,
-  'brand-color-2' :$brand-color2,
-  'brand-color-3' :$brand-color3
+$brand-colors: (
+  'brand-color-1': $brand-color1,
+  'brand-color-2': $brand-color2,
+  'brand-color-3': $brand-color3
 );
 $preset-colors: (
   preset-1: (

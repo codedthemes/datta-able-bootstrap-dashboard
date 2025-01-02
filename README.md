@@ -6,7 +6,7 @@ Datta Able Free Dashboard Template made using Bootstrap 5 framework, It is a fre
 
 Datta Able Admin Template comes with variety of components like Button, Badges, Tabs, Breadcrumb, Icons, Form elements, Table, Charts & Authentication pages.
 
-The code structure is high flexible to use and modify. 
+The code structure is high flexible to use and modify.
 
 Its design adapt any screen size easily even if retina screens.
 
@@ -18,44 +18,48 @@ Check out live preview of Datta Able lite version & download it.
 
 #### Preview
 
- - [Demo](http://lite.codedthemes.com/datta-able/bootstrap)
+- [Demo](http://lite.codedthemes.com/datta-able/bootstrap)
 
 #### Download
 
- - [Download from Github](https://github.com/codedthemes/datta-able-bootstrap-dashboard.git)
- - [Download from CodedThemes]( https://codedthemes.com/item/datta-able-bootstrap-lite/) & receive important notification instantly in your maiL.
- 
- ## Premium Version Preview & Download
+- [Download from Github](https://github.com/codedthemes/datta-able-bootstrap-dashboard.git)
+- [Download from CodedThemes](https://codedthemes.com/item/datta-able-bootstrap-lite/) & receive important notification instantly in your maiL.
+
+## Premium Version Preview & Download
 
 Datta Able Pro Admin Template is available to purchase. Visit its numerous demos and make your purchase decision.
+
 #### Preview
- - [Demo](https://codedthemes.com/demos/admin-templates/datta-able/bootstrap/default/)
+
+- [Demo](https://codedthemes.com/demos/admin-templates/datta-able/bootstrap/default/)
 
 #### Download
 
- - [Purchase from CodedThemes](https://codedthemes.com/item/datta-able-premium)
+- [Purchase from CodedThemes](https://codedthemes.com/item/datta-able-premium)
 
 ## Table of contents
 
- * [Getting Started](#getting-started)
- * [Online Documentation](#online-documentation)
- * [Build With](#build-with)
- * [Directory-structure](#directory-structure)
- * [RoadMap](#roadmap)
- * [Author](#author)
- * [Contributing](#contributing)
- * [Issues?](#issues)
- * [License](#license)
- * [Other Dashboard Products](#other-dashboard-products)
- * [Social Profiles](#social-profiles)
- 
+- [Getting Started](#getting-started)
+- [Online Documentation](#online-documentation)
+- [Build With](#build-with)
+- [Directory-structure](#directory-structure)
+- [RoadMap](#roadmap)
+- [Author](#author)
+- [Contributing](#contributing)
+- [Issues?](#issues)
+- [License](#license)
+- [Other Dashboard Products](#other-dashboard-products)
+- [Social Profiles](#social-profiles)
+
 ## Getting Started
 
-Clone from Github 
+Clone from Github
+
 ```
 git clone https://github.com/codedthemes/datta-able-bootstrap-dashboard.git
 ```
-*no other dependencies required to run the Datta Able Template*
+
+_no other dependencies required to run the Datta Able Template_
 
 ## Online Documentation
 
@@ -63,9 +67,9 @@ Datta Able Lite version documentation cover in its Pro version documentation - c
 
 ## Build With
 
- - [Bootstrap 5](https://getbootstrap.com/)
- - [SASS](https://sass-lang.com/) - SCSS file not included in lite version v1.0
- 
+- [Bootstrap 5](https://getbootstrap.com/)
+- [SASS](https://sass-lang.com/) - SCSS file not included in lite version v1.0
+
 ## Directory Structure
 
 ```
@@ -107,23 +111,26 @@ Datta-able/
 ## RoadMap
 
 We are continuously working in Datta Able Project and going to make it a awesome dashboard template via your support. Give us the ideas, suggestion for include more components, pages, plugins. Few of future release pages are
- 
-#### Layouts 
- - Horizontal version
- - Sidebar Image version
- - Introduce Live Customizer (i.e. only for demo)
+
+#### Layouts
+
+- Horizontal version
+- Sidebar Image version
+- Introduce Live Customizer (i.e. only for demo)
 
 #### Pages
- - Pricing
- - Login/Register pages version 2
- - User profile
- - Maintenance Pages like 404, Error Pages, Coming Soon 
+
+- Pricing
+- Login/Register pages version 2
+- User profile
+- Maintenance Pages like 404, Error Pages, Coming Soon
 
 #### Basic & Advance Components
- - Alert, Cards, Progress, Modal
- - Datepicker, Notification, Slider
 
-*All above pages already included in Pro version. We need your support to include those pages in lite version too.*
+- Alert, Cards, Progress, Modal
+- Datepicker, Notification, Slider
+
+_All above pages already included in Pro version. We need your support to include those pages in lite version too._
 
 ## Author
 
@@ -135,19 +142,20 @@ Please generate Github issue if you found bug in any version. We are try to be r
 
 ## License
 
- - Design and Code is Copyright &copy; [CodedThemes](https://www.codedthemes.com)
- - Licensed cover under [MIT](https://github.com/codedthemes/datta-able-bootstrap-dashboard/blob/master/LICENSE)
+- Design and Code is Copyright &copy; [CodedThemes](https://www.codedthemes.com)
+- Licensed cover under [MIT](https://github.com/codedthemes/datta-able-bootstrap-dashboard/blob/master/LICENSE)
 
 ## Other Dashboard Products
 
- - [Free Bootstrap 5 Admin Template](https://codedthemes.com/item/category/free-templates/free-bootstrap-admin-templates)
- - [Free React Dashboard Template](https://codedthemes.com/item/category/free-templates/free-react-admin-templates)
- - [Free Angular Dashboard Template](https://codedthemes.com/item/category/free-templates/free-angular-admin-templates)
- - [Premium Bootstrap & Angular Admin Template](https://codedthemes.com/item/category/templates/admin-templates/)
- 
+- [Free Bootstrap 5 Admin Template](https://codedthemes.com/item/category/free-templates/free-bootstrap-admin-templates)
+- [Free React Dashboard Template](https://codedthemes.com/item/category/free-templates/free-react-admin-templates)
+- [Free Angular Dashboard Template](https://codedthemes.com/item/category/free-templates/free-angular-admin-templates)
+- [Premium Bootstrap & Angular Admin Template](https://codedthemes.com/item/category/templates/admin-templates/)
+
 ## Social Profiles
- - Dribbble [https://dribbble.com/codedthemes](https://dribbble.com/codedthemes)
- - Behance [https://www.behance.net/codedthemes](https://www.behance.net/codedthemes)
- - Facebook [https://www.facebook.com/codedthemes](https://www.facebook.com/codedthemes)
- - Twitter [https://twitter.com/codedthemes](https://twitter.com/codedthemes)
- - Instagram [https://www.instagram.com/codedthemes/](https://www.instagram.com/codedthemes/)
+
+- Dribbble [https://dribbble.com/codedthemes](https://dribbble.com/codedthemes)
+- Behance [https://www.behance.net/codedthemes](https://www.behance.net/codedthemes)
+- Facebook [https://www.facebook.com/codedthemes](https://www.facebook.com/codedthemes)
+- Twitter [https://twitter.com/codedthemes](https://twitter.com/codedthemes)
+- Instagram [https://www.instagram.com/codedthemes/](https://www.instagram.com/codedthemes/)

@@ -32,7 +32,7 @@
     display: flex;
     padding: 0 25px;
     flex-grow: 1;
-    @include media-breakpoint-down(sm) { 
+    @include media-breakpoint-down(sm) {
       padding: 0 15px;
     }
   }
@@ -108,19 +108,19 @@
       transition: all 0.08s cubic-bezier(0.37, 0.24, 0.53, 0.99);
     }
 
-    >svg,
-    >i {
+    > svg,
+    > i {
       position: relative;
       z-index: 5;
       color: var(--pc-header-color);
       transition: all 0.08s cubic-bezier(0.37, 0.24, 0.53, 0.99);
     }
 
-    >i {
+    > i {
       font-size: 24px;
     }
 
-    >svg {
+    > svg {
       width: 20px;
       height: 20px;
     }
@@ -132,8 +132,8 @@
       text-decoration: none;
       color: var(--bs-primary);
 
-      >svg,
-      >i {
+      > svg,
+      > i {
         color: var(--bs-primary);
       }
 
@@ -219,7 +219,7 @@
     position: relative;
 
     &:hover {
-      >.dropdown-menu {
+      > .dropdown-menu {
         display: block;
         left: 100%;
         top: -18px !important;
@@ -295,7 +295,7 @@
         }
       }
 
-      >span>i {
+      > span > i {
         font-size: 22px;
         margin-right: 8px;
       }
@@ -312,8 +312,8 @@
           margin-right: 0;
         }
 
-        >span,
-        >span>i {
+        > span,
+        > span > i {
           display: none;
         }
       }
@@ -342,7 +342,6 @@
       }
 
       .user-group {
-
         .avtar,
         img {
           width: 30px;
@@ -364,7 +363,6 @@
       padding: 16px 20px;
     }
     .list-group-item-action {
-
       &:active,
       &:hover,
       &:focus {
@@ -419,7 +417,6 @@
   background-size: cover;
 
   .user-group {
-
     .avtar,
     img {
       font-size: 14px;
@@ -442,8 +439,8 @@
     transition: all 0.1s ease-in-out;
     border: 2px solid $card-bg;
 
-    +.avtar,
-    +img {
+    + .avtar,
+    + img {
       margin-left: -14px;
     }
 
@@ -487,7 +484,6 @@
     }
 
     .pc-head-link {
-
       .user-desc,
       .user-name {
         display: none;
@@ -563,7 +559,7 @@
 }
 
 #pc-noti-home {
-  >.media {
+  > .media {
     &:hover {
       margin: -15px;
       padding: 15px;

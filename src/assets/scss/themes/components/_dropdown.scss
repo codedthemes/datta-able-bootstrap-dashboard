@@ -81,7 +81,8 @@
 
 .dropdown-menu-dark {
   .dropdown-item {
-    &.active, &:active {
+    &.active,
+    &:active {
       color: var(--bs-dropdown-link-hover-color);
       background-color: var(--bs-dropdown-link-hover-bg);
     }

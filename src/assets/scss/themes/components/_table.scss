@@ -30,7 +30,8 @@
 
 .affiliate-table {
   tr {
-    th,td {
+    th,
+    td {
       &:first-child {
         @include media-breakpoint-down(xl) {
           min-width: 150px;
