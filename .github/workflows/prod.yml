@@ -28,7 +28,7 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
           ARGS: '-rltgoDzvO --delete'
           SOURCE: 'dist/'
-          REMOTE_HOST: 154.49.240.71
+          REMOTE_HOST: 92.112.197.121
           REMOTE_USER: u778408432
           REMOTE_PORT: '65002'
           TARGET: domains/codedthemes.com/public_html/demos/admin-templates/datta-able/bootstrap/free
