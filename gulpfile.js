@@ -32,7 +32,7 @@ const navbar_image_theme = ''; // [ '',preset-1 to preset-6 ]
 const nav_dropdown_icon_theme = ''; // [ '',preset-1 to preset-5 ]
 const nav_dropdown_link_icon_theme = ''; // [ '',preset-1 to preset-6 ]
 
-const version = 'v3.0.0';
+const version = 'v2.1.0';
 // =======================================================
 
 //  [ scss compiler ] start
