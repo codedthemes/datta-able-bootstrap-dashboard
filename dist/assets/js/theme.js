@@ -87,7 +87,6 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
-
 function layout_theme_sidebar_change(value) {
   // Set the sidebar theme attribute on the <body> element
   document.body.setAttribute('data-pc-sidebar_theme', value);
@@ -95,9 +94,7 @@ function layout_theme_sidebar_change(value) {
   // Select the sidebar logo and update its source based on the selected theme
   const logo = document.querySelector('.pc-sidebar .m-header .logo-lg');
   if (logo) {
-    const logoSrc = value === 'true' 
-      ? '../assets/images/logo-dark.svg' 
-      : '../assets/images/logo-white.svg';
+    const logoSrc = value === 'true' ? '../assets/images/logo-dark.svg' : '../assets/images/logo-white.svg';
     logo.setAttribute('src', logoSrc);
   }
 
@@ -318,4 +315,3 @@ function change_box_container(value) {
 
 // =======================================================
 // =======================================================
-

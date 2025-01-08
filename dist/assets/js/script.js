@@ -49,28 +49,28 @@ document.addEventListener('DOMContentLoaded', function () {
   if (temp_overlay_menu) {
     temp_overlay_menu.addEventListener('click', function () {
       var pcSidebar = document.querySelector('.pc-sidebar');
-      menu_click();  // Assuming this initializes any menu interactions needed
+      menu_click(); // Assuming this initializes any menu interactions needed
 
       if (pcSidebar.classList.contains('pc-over-menu-active')) {
         remove_overlay_menu();
       } else {
         pcSidebar.classList.add('pc-over-menu-active');
-        
+
         // Check if overlay already exists before adding
         if (!document.querySelector('.pc-menu-overlay')) {
           pcSidebar.insertAdjacentHTML('beforeend', '<div class="pc-menu-overlay"></div>');
-          
+
           // Add event listener to the overlay for removing menu and overlay on click
           document.querySelector('.pc-menu-overlay').addEventListener('click', function () {
             remove_overlay_menu();
-            document.querySelector('.hamburger').classList.remove('is-active');  // Ensuring hamburger is deactivated
+            document.querySelector('.hamburger').classList.remove('is-active'); // Ensuring hamburger is deactivated
           });
         }
       }
     });
   }
   // Menu overlay layout end
-  
+
   // Menu collapse click start
   var mobile_collapse_over = document.querySelector('#mobile-collapse');
   if (mobile_collapse_over) {
@@ -78,14 +78,14 @@ document.addEventListener('DOMContentLoaded', function () {
       var temp_sidebar = document.querySelector('.pc-sidebar');
       if (temp_sidebar) {
         if (temp_sidebar.classList.contains('mob-sidebar-active')) {
-          rm_menu();  // Close menu if already active
+          rm_menu(); // Close menu if already active
         } else {
           temp_sidebar.classList.add('mob-sidebar-active');
-          
+
           // Only add the overlay if it doesn't already exist
           if (!document.querySelector('.pc-menu-overlay')) {
             temp_sidebar.insertAdjacentHTML('beforeend', '<div class="pc-menu-overlay"></div>');
-            
+
             // Add event listener to remove the menu when overlay is clicked
             document.querySelector('.pc-menu-overlay').addEventListener('click', function () {
               rm_menu();
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Menu collapse click start
   var topbar_link_list = document.querySelectorAll('.pc-horizontal .topbar .pc-navbar > li > a');
   if (topbar_link_list.length) {
-    topbar_link_list.forEach(link => {
+    topbar_link_list.forEach((link) => {
       link.addEventListener('click', function (e) {
         var targetElement = e.target;
         setTimeout(function () {
@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Horizontal menu click js start
   var topbar_link_list = document.querySelectorAll('.pc-horizontal .topbar .pc-navbar > li > a');
   if (topbar_link_list) {
-    topbar_link_list.forEach(link => {
+    topbar_link_list.forEach((link) => {
       link.addEventListener('click', function (e) {
         var targetElement = e.target;
         setTimeout(function () {
@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
   // component- dropdown scrollbar end
 
-  // sidebar toggle event 
+  // sidebar toggle event
   const sidebarHideBtn = document.querySelector('#sidebar-hide');
   const sidebar = document.querySelector('.pc-sidebar');
 
@@ -189,13 +189,13 @@ function menu_click() {
   var menuItems = document.querySelectorAll('.pc-navbar li');
 
   // Remove previous click events
-  menuItems.forEach(item => {
-    item.removeEventListener('click', function () { });
+  menuItems.forEach((item) => {
+    item.removeEventListener('click', function () {});
   });
 
   // Hide all submenus initially
   var subMenus = document.querySelectorAll('.pc-navbar li:not(.pc-trigger) .pc-submenu');
-  subMenus.forEach(subMenu => {
+  subMenus.forEach((subMenu) => {
     subMenu.style.display = 'none';
   });
 
@@ -232,7 +232,7 @@ function menu_click() {
   // Close all open menus
   function closeAllMenus() {
     var openMenus = document.querySelectorAll('li.pc-trigger');
-    openMenus.forEach(menu => {
+    openMenus.forEach((menu) => {
       menu.classList.remove('pc-trigger');
       slideUp(menu.children[1], 200);
       setTimeout(() => {
@@ -244,7 +244,7 @@ function menu_click() {
 
   // Submenu click handling with event delegation
   var subMenuItems = document.querySelectorAll('.pc-navbar > li:not(.pc-caption) li');
-  subMenuItems.forEach(subMenuItem => {
+  subMenuItems.forEach((subMenuItem) => {
     subMenuItem.addEventListener('click', function (event) {
       var target = event.target.closest('li');
       if (target) {
@@ -270,7 +270,7 @@ function menu_click() {
 
   // Close sibling menus
   function closeSiblingMenus(siblings) {
-    Array.from(siblings).forEach(sibling => {
+    Array.from(siblings).forEach((sibling) => {
       if (sibling.classList.contains('pc-trigger')) {
         sibling.classList.remove('pc-trigger');
         slideUp(sibling.children[1], 200);
@@ -334,7 +334,6 @@ function remove_overlay_menu() {
     topbarOverlay.remove();
   }
 }
-
 
 // bootstrap componant
 window.addEventListener('load', function () {
@@ -402,7 +401,6 @@ likeInputs.forEach(function (likeInput) {
           likeElement.remove();
         }
       }, 3000);
-
     } else {
       // Remove the like animation if it exists
       var likeElement = parentElement.querySelector('.pc-like');
@@ -422,7 +420,6 @@ for (var t = 0; t < tc.length; t++) {
   // Change the 'src' attribute to the new logo path
   tc[t].setAttribute('src', '../assets/images/logo-white.svg');
 }
-
 
 // =======================================================
 // =======================================================
