@@ -2,9 +2,9 @@
 //   List of variables for Preset color
 // =======================================
 // theme color
-$brand-color1 : linear-gradient(-135deg,#1de9b6 0%,#1dc4e9 100%);
-$brand-color2 : linear-gradient(-135deg,#899FD4 0%,#A389D4 100%);
-$brand-color3 : linear-gradient(207.92deg, #0398F2 11.42%, #38B9E7 106.55%);
+$brand-color1: linear-gradient(-135deg, #1de9b6 0%, #1dc4e9 100%);
+$brand-color2: linear-gradient(-135deg, #899fd4 0%, #a389d4 100%);
+$brand-color3: linear-gradient(207.92deg, #0398f2 11.42%, #38b9e7 106.55%);
 
 // Gray color
 $white: #ffffff;
@@ -29,7 +29,6 @@ $yellow: #f4c22b;
 $green: #1de9b6;
 $teal: #008080;
 $cyan: #3ebfea;
-
 
 // fusv-disablex
 $blue-100: tint-color($blue, 80%);

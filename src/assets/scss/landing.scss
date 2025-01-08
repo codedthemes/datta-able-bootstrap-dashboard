@@ -2,7 +2,7 @@
 =========================================================================
 Template Name: Datta able - Bootstrap Admin Template
 Author: Codedthemes
-Support: https://Codedthemes.authordesk.app
+Support: https://codedthemes.support-hub.io/
 File: style.css
 =========================================================================
 =================================================================================== */
@@ -43,7 +43,8 @@ section {
   .btn {
     border-radius: 50px;
   }
-  .pct-c-btn{
+
+  .pct-c-btn {
     display: none;
   }
 
@@ -59,13 +60,16 @@ section {
   width: 100%;
   z-index: 1099;
   top: 0;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background: var(--pc-sidebar-background);
 
   &.top-nav-collapse.default {
     padding: 26px 0;
-    @include media-breakpoint-up(md) { 
+
+    @include media-breakpoint-up(md) {
       background: transparent !important;
     }
+
     box-shadow: none;
   }
 
@@ -76,13 +80,13 @@ section {
   }
 
   .nav-link {
-    color: var(--bs-body-color);
+    color: rgba(255, 255, 255, 0.6);
     font-weight: 500;
 
     &:active,
     &:hover,
     &:focus {
-      color: var(--bs-primary);
+      color: rgba(255, 255, 255, 1);
     }
   }
 }
@@ -97,25 +101,16 @@ header {
   min-height: 100vh;
   background-size: cover;
   flex-direction: column;
-  background-color: $brand-color1;
-  --bg-size: 400%;
-  --color-one: rgb(37, 161, 244);
-  --color-two: rgb(249, 31, 169);
-
-  background: linear-gradient(90deg,
-      var(--color-one),
-      var(--color-two),
-      var(--color-one)) 0 0 / var(--bg-size) 100%;
-  animation: move-bg 24s infinite linear;
+  background: var(--pc-sidebar-background);
 
   &:after {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(255, 255, 255, 0.95);
+    background: linear-gradient(0deg, #00000080, transparent);
     z-index: 1;
   }
 
@@ -145,10 +140,7 @@ header {
   --color-one: rgb(37, 161, 244);
   --color-two: rgb(249, 31, 169);
 
-  background: linear-gradient(90deg,
-      var(--color-one),
-      var(--color-two),
-      var(--color-one)) 0 0 / var(--bg-size) 100%;
+  background: linear-gradient(90deg, var(--color-one), var(--color-two), var(--color-one)) 0 0 / var(--bg-size) 100%;
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;

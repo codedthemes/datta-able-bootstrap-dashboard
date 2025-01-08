@@ -18,7 +18,7 @@
       justify-content: center;
 
       &:after {
-        content: "";
+        content: '';
         position: absolute;
         top: 50%;
         left: 0;
@@ -50,7 +50,7 @@
         max-width: 100%;
       }
 
-      img+span {
+      img + span {
         padding-left: 10px;
       }
 
@@ -89,7 +89,6 @@
           height: 300px;
           border-radius: 50%;
 
-
           &:first-child {
             top: -100px;
             right: -100px;
@@ -100,7 +99,6 @@
             left: -100px;
             bottom: -100px;
             background: $brand-color2;
-
           }
 
           &.s {
@@ -215,10 +213,12 @@
   }
 
   .btn-check:checked {
-    +.auth-megaoption {
+    + .auth-megaoption {
       border-color: var(--bs-primary);
       background: var(--bs-primary-light);
-      box-shadow: 0 0 0 1px var(--bs-primary), 0px 8px 24px rgba(27, 46, 94, 0.12);
+      box-shadow:
+        0 0 0 1px var(--bs-primary),
+        0px 8px 24px rgba(27, 46, 94, 0.12);
 
       svg,
       span {

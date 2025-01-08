@@ -1,42 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<!-- [Head] start -->
+  <!-- [Head] start -->
 
-<head>
-  @@include('../layouts/head-page-meta.html', {'title': 'Sample Page'}) @@include('../layouts/head-css.html')
-</head>
-<!-- [Head] end -->
-<!-- [Body] Start -->
+  <head>
+    @@include('../layouts/head-page-meta.html', {'title': 'Sample Page'}) @@include('../layouts/head-css.html')
+  </head>
+  <!-- [Head] end -->
+  <!-- [Body] Start -->
 
-<body @@bodySetup>
-  @@include('../layouts/layout-vertical.html')
+  <body @@bodySetup>
+    @@include('../layouts/layout-vertical.html')
 
-  <!-- [ Main Content ] start -->
-  <div class="pc-container">
-    <div class="pc-content">
-      @@include('../layouts/breadcrumb.html', {'breadcrumb-item': 'Other', 'breadcrumb-item-active': 'Sample Page'})
+    <!-- [ Main Content ] start -->
+    <div class="pc-container">
+      <div class="pc-content">
+        @@include('../layouts/breadcrumb.html', {'breadcrumb-item': 'Other', 'breadcrumb-item-active': 'Sample Page'})
 
-      <!-- [ Main Content ] start -->
-      <div class="row">
-        <!-- [ sample-page ] start -->
-        <div class="col-sm-12">
-          <div class="card">
-            <div class="card-header">
-              <h5>Hello card</h5>
-            </div>
-            <div class="card-body">
+        <!-- [ Main Content ] start -->
+        <div class="row">
+          <!-- [ sample-page ] start -->
+          <div class="col-sm-12">
+            <div class="card">
+              <div class="card-header">
+                <h5>Hello card</h5>
+              </div>
+              <div class="card-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta odit ipsa accusantium tenetur aliquid laborum magnam culpa
+                assumenda optio earum odio sed, architecto reprehenderit ad accusamus, natus quia, inventore adipisci.
+              </div>
             </div>
           </div>
+          <!-- [ sample-page ] end -->
         </div>
-        <!-- [ sample-page ] end -->
+        <!-- [ Main Content ] end -->
       </div>
-      <!-- [ Main Content ] end -->
     </div>
-  </div>
-  <!-- [ Main Content ] end -->
-  @@include('../layouts/footer-block.html') @@include('../layouts/footer-js.html')
-  
-</body>
-<!-- [Body] end -->
-
+    <!-- [ Main Content ] end -->
+    @@include('../layouts/footer-block.html') @@include('../layouts/footer-js.html')
+  </body>
+  <!-- [Body] end -->
 </html>

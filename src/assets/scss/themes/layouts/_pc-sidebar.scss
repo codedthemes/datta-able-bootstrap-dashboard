@@ -111,7 +111,7 @@
       }
     }
 
-    >svg {
+    > svg {
       width: 18px;
       height: 18px;
       display: inline-block;
@@ -136,10 +136,10 @@
     }
   }
 
-  .pc-navbar>.pc-item:not(.pc-caption) {
+  .pc-navbar > .pc-item:not(.pc-caption) {
     position: relative;
 
-    >.pc-link {
+    > .pc-link {
       &::after {
         content: '';
         position: absolute;
@@ -169,7 +169,7 @@
         background: var(--pc-sidebar-active-color);
       }
 
-      >.pc-link {
+      > .pc-link {
         font-weight: 500;
         color: var(--pc-sidebar-main-active-color);
 
@@ -180,13 +180,14 @@
     }
 
     .pc-submenu {
+      padding: 15px 0;
       .pc-item {
-        >.pc-link {
+        > .pc-link {
           &:after {
             content: '';
             border-radius: 50%;
             position: absolute;
-            top: 20px;
+            top: 16px;
             width: 5px;
             height: 5px;
             background: var(--pc-sidebar-color);
@@ -197,7 +198,7 @@
 
         &.pc-trigger,
         &.active {
-          >.pc-link {
+          > .pc-link {
             font-weight: 500;
             color: var(--pc-sidebar-active-color);
 
@@ -211,7 +212,7 @@
         &.active,
         &:focus,
         &:hover {
-          >.pc-link {
+          > .pc-link {
             &:after {
               opacity: 1;
               transform: scale(1.2);
@@ -228,7 +229,7 @@
       }
 
       .pc-link {
-        padding: 12px 30px 12px 60px;
+        padding: 7px 30px 7px 60px;
 
         &:after {
           left: 28px;
@@ -241,7 +242,7 @@
         }
 
         .pc-link {
-          padding: 12px 30px 12px 80px;
+          padding: 7px 30px 7px 80px;
 
           &:after {
             left: 62px;
@@ -254,7 +255,7 @@
           }
 
           .pc-link {
-            padding: 12px 30px 12px 95px;
+            padding: 7px 30px 7px 95px;
 
             &:after {
               left: 79px;
@@ -279,7 +280,7 @@
     display: inline-block;
     transition: all 0.2s ease-in-out;
 
-    >svg {
+    > svg {
       width: 14px;
       height: 14px;
     }
@@ -325,18 +326,18 @@
 
   .pc-hasmenu {
     &:not(.pc-trigger) {
-      >.pc-submenu {
+      > .pc-submenu {
         display: none;
       }
     }
 
     &.pc-trigger {
-      >.pc-submenu {
+      > .pc-submenu {
         display: block;
       }
 
-      >.pc-link {
-        >.pc-arrow {
+      > .pc-link {
+        > .pc-arrow {
           transform: rotate(90deg);
         }
       }
@@ -360,25 +361,25 @@
     display: none;
   }
 }
-[data-pc-navimg*="preset-"]{
-  .pc-sidebar{
+[data-pc-navimg*='preset-'] {
+  .pc-sidebar {
     background-size: cover;
-    .navbar-wrapper{
+    .navbar-wrapper {
       background: rgba(0, 0, 0, 0.5);
     }
   }
 }
-[data-pc-drp-menu-icon*="preset-"]{
-  .pc-sidebar .pc-arrow > i::before{
+[data-pc-drp-menu-icon*='preset-'] {
+  .pc-sidebar .pc-arrow > i::before {
     content: var(--pc-sidebar-drp-menu-icon);
   }
 }
 
-[data-pc-drp-menu-link-icon*="preset-"]{
-  .pc-sidebar{
-    .pc-navbar > .pc-item:not(.pc-caption) .pc-submenu{
-      .pc-item{
-        > .pc-link:after{
+[data-pc-drp-menu-link-icon*='preset-'] {
+  .pc-sidebar {
+    .pc-navbar > .pc-item:not(.pc-caption) .pc-submenu {
+      .pc-item {
+        > .pc-link:after {
           content: var(--pc-sidebar-drp-menu-link-icon);
           font-family: tabler-icons !important;
           transform: none;
@@ -387,11 +388,10 @@
           height: auto;
           top: 13px;
           opacity: 0;
-
         }
         &.active,
-        &:hover{
-          > .pc-link:after{
+        &:hover {
+          > .pc-link:after {
             opacity: 1;
           }
         }
@@ -419,12 +419,12 @@
   .pc-sidebar {
     transition: width 0.2s ease;
 
-    ~.pc-header {
+    ~ .pc-header {
       transition: left 0.2s ease;
     }
 
-    ~.pc-footer,
-    ~.pc-container {
+    ~ .pc-footer,
+    ~ .pc-container {
       transition: margin-left 0.2s ease;
     }
 
@@ -432,12 +432,12 @@
       width: 0;
       --pc-sidebar-border: none;
 
-      ~.pc-header {
+      ~ .pc-header {
         left: 0;
       }
 
-      ~.pc-footer,
-      ~.pc-container {
+      ~ .pc-footer,
+      ~ .pc-container {
         margin-left: 0px;
       }
     }
@@ -486,8 +486,7 @@
 
   $i: 1;
 
-  @each $name,
-  $value in $preset-colors {
+  @each $name, $value in $preset-colors {
     a.preset.preset-#{$i} {
       background: map-get($value, 'primary');
     }
@@ -560,8 +559,11 @@
         margin-bottom: 5px;
         --bs-breadcrumb-divider-color: #fff;
 
-        .breadcrumb-item+.breadcrumb-item::before {
-          content: var(--bs-breadcrumb-divider, url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='14' height='14' stroke='%23ffffff' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round' class='css-i6dzq1'%3E%3Cpolyline points='9 18 15 12 9 6'%3E%3C/polyline%3E%3C/svg%3E"));
+        .breadcrumb-item + .breadcrumb-item::before {
+          content: var(
+            --bs-breadcrumb-divider,
+            url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='14' height='14' stroke='%23ffffff' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round' class='css-i6dzq1'%3E%3Cpolyline points='9 18 15 12 9 6'%3E%3C/polyline%3E%3C/svg%3E")
+          );
         }
 
         .breadcrumb-item,
@@ -579,7 +581,7 @@
   --pc-sidebar-active-color: #fff;
   --pc-sidebar-main-active-color: #fff;
 
-  &[data-pc-preset*="preset-"] {
+  &[data-pc-preset*='preset-'] {
     --pc-sidebar-active-color: #fff;
   }
 
@@ -597,11 +599,9 @@
     $i: $i + 1;
   }
 
-
   $i: 1;
 
-  @each $name,
-  $value in $preset-colors {
+  @each $name, $value in $preset-colors {
     a.preset.preset-#{$i} {
       background: map-get($value, 'primary');
     }
@@ -615,7 +615,11 @@
     }
 
     &.preset-gradient-#{$i} {
-      --pc-layout-3-sidebar-background: linear-gradient(to right, #{map-get($value, 'primary')} 0%, #{lighten(map-get($value, 'primary'), 10%)} 100%);
+      --pc-layout-3-sidebar-background: linear-gradient(
+        to right,
+        #{map-get($value, 'primary')} 0%,
+        #{lighten(map-get($value, 'primary'), 10%)} 100%
+      );
     }
 
     $i: $i + 1;
@@ -631,20 +635,19 @@
     }
 
     .pc-navbar {
-      >li {
+      > li {
         border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 
-        >a {
+        > a {
           padding: 20px 15px;
         }
       }
 
-      >.pc-item:not(.pc-caption) {
-
+      > .pc-item:not(.pc-caption) {
         &:hover,
         &.pc-trigger,
         &.active {
-          >.pc-link:after {
+          > .pc-link:after {
             background: rgba(0, 0, 0, 0.3);
           }
         }

@@ -21,11 +21,10 @@
 #Statistics-sale {
   .amcharts-cursor-fill {
     filter: url(#shadow);
-    fill: rgba(256, 256, 256, .3);
+    fill: rgba(256, 256, 256, 0.3);
     stroke-width: 0;
   }
 }
-
 
 /* statistics section */
 
@@ -66,7 +65,7 @@
       padding: 50px 20px;
     }
 
-    >[class*=col-] {
+    > [class*='col-'] {
       display: table-cell;
       float: none;
       table-layout: fixed;
@@ -164,7 +163,7 @@
       box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
 
       &:after {
-        content: "";
+        content: '';
         position: absolute;
         left: -12px;
         bottom: 18px;
@@ -188,7 +187,7 @@
       box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
 
       &:after {
-        content: "";
+        content: '';
         position: absolute;
         right: -11px;
         bottom: 18px;
@@ -252,7 +251,7 @@
 
 .widget-content {
   .widget-lorem {
-    .media {
+    .d-flex {
       h5 {
         border-radius: 50%;
         width: 50px;
@@ -288,12 +287,12 @@
     display: inline-block;
   }
 
-  .check-task>input:checked~.row,
-  .check-task>input[checked]~.row,
+  .check-task > input:checked ~ .row,
+  .check-task > input[checked] ~ .row,
   .done-task {
     opacity: 0.7;
 
-    >div {
+    > div {
       filter: grayscale(0.8);
     }
 
@@ -338,22 +337,22 @@
       }
     }
 
-    label input[type=checkbox] {
+    label input[type='checkbox'] {
       display: none;
     }
 
-    label input[type=checkbox]+.cr>.cr-icon {
+    label input[type='checkbox'] + .cr > .cr-icon {
       transform: scale(3) rotateZ(-20deg);
       opacity: 0;
       transition: all 0.3s ease-in;
     }
 
-    label input[type=checkbox]:checked+.cr>.cr-icon {
+    label input[type='checkbox']:checked + .cr > .cr-icon {
       transform: scale(1) rotateZ(0deg);
       opacity: 1;
     }
 
-    label input[type=checkbox]:checked+.cr {
+    label input[type='checkbox']:checked + .cr {
       background: linear-gradient(-135deg, #1de9b6 0%, #1dc4e9 100%);
       border: 0;
     }
@@ -531,7 +530,7 @@
   padding: 30px 0 0;
 
   &:after {
-    content: "";
+    content: '';
     position: absolute;
     background: #ecedef;
     height: 100%;
@@ -599,12 +598,12 @@
     height: 7px;
   }
 
-  .card-active>div+div {
+  .card-active > div + div {
     border-left: 1px solid var(--bs-border-color);
   }
 
   @media screen and (max-width: 767px) {
-    .card-active [class*=col-]:last-child {
+    .card-active [class*='col-']:last-child {
       border-left: 0;
       margin-top: 20px;
     }
@@ -621,7 +620,7 @@
   }
 
   i {
-    background: rgba(255, 255, 255, .2);
+    background: rgba(255, 255, 255, 0.2);
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -748,7 +747,7 @@
     height: 6px;
   }
 
-  .card-active>div+div {
+  .card-active > div + div {
     border-left: 1px solid var(--bs-border-color);
   }
 }
@@ -820,7 +819,7 @@
         color: #000;
 
         &:after {
-          content: "";
+          content: '';
           position: absolute;
           border-left: 5px solid transparent;
           border-right: 5px solid transparent;
@@ -935,7 +934,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .user-designer [class*=col-]:last-child {
+  .user-designer [class*='col-']:last-child {
     margin-top: 15px;
   }
 
@@ -989,11 +988,11 @@
     transition: all ease-in 0.3s;
 
     &:before {
-      background: url("../images/complete.png") no-repeat;
+      background: url('../images/complete.png') no-repeat;
       position: absolute;
       top: 5px;
       right: 5px;
-      content: "";
+      content: '';
       width: 55px;
       height: 55px;
       background-size: 100%;
@@ -1004,7 +1003,7 @@
     }
   }
 
-  @media screen and (max-width:580px) {
+  @media screen and (max-width: 580px) {
     li {
       width: 100%;
     }
@@ -1020,7 +1019,7 @@
     }
   }
 
-  label input[type=checkbox] {
+  label input[type='checkbox'] {
     display: none;
   }
 }
@@ -1123,7 +1122,7 @@
   .Note-delete {
     margin-bottom: 0;
     opacity: 0;
-    background: rgba(0, 0, 0, .6);
+    background: rgba(0, 0, 0, 0.6);
     border: none;
     position: absolute;
     right: 20px;
@@ -1203,7 +1202,6 @@
 }
 
 .task-board-left {
-
   .task-right-header-revision,
   .task-right-header-status,
   .task-right-header-users {
@@ -1266,7 +1264,7 @@
     box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
     padding: 0.5rem 1rem;
 
-    @media screen and (max-width:557px) {
+    @media screen and (max-width: 557px) {
       .f-text {
         display: block;
         width: 100%;
@@ -1429,7 +1427,6 @@
 .owl-carousel {
   .owl-nav {
     button {
-
       &.owl-next,
       &.owl-prev {
         padding: 3px 9px !important;
@@ -1445,7 +1442,7 @@
   }
 }
 
-.owl-theme .owl-nav [class*=owl-]:hover {
+.owl-theme .owl-nav [class*='owl-']:hover {
   background-color: var(--bs-primary);
   color: #fff;
 }
@@ -1491,8 +1488,8 @@
     font-size: 28px;
   }
 
-  @media screen and (max-width:768px) {
-    .fc .fc-toolbar>*>* {
+  @media screen and (max-width: 768px) {
+    .fc .fc-toolbar > * > * {
       float: none;
     }
 
@@ -1516,10 +1513,9 @@
 }
 
 div.code-toolbar {
-
-  >.toolbar a,
-  >.toolbar button,
-  >.toolbar span {
+  > .toolbar a,
+  > .toolbar button,
+  > .toolbar span {
     padding: 3px 0.9em !important;
     background: #04a9f5 !important;
     color: #fff !important;
@@ -1527,8 +1523,8 @@ div.code-toolbar {
   }
 }
 
-pre[class*=language-]:after,
-pre[class*=language-]:before {
+pre[class*='language-']:after,
+pre[class*='language-']:before {
   display: none;
 }
 
@@ -1587,7 +1583,6 @@ pre[class*=language-]:before {
   }
 }
 
-
 .table-card .card-body,
 .table-body.card-body {
   padding-left: 0;
@@ -1595,12 +1590,11 @@ pre[class*=language-]:before {
   padding-top: 0;
 
   .table {
-    >thead>tr>th {
+    > thead > tr > th {
       border-top: 0;
     }
 
     tr {
-
       td,
       th {
         &:first-child {
@@ -1646,7 +1640,7 @@ pre[class*=language-]:before {
       margin: 0 20px;
     }
 
-    >[class*='col-'] {
+    > [class*='col-'] {
       display: table-cell;
       float: none;
       table-layout: fixed;
@@ -1656,7 +1650,6 @@ pre[class*=language-]:before {
         display: flex;
         align-items: center;
       }
-
     }
   }
 }
