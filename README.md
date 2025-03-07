@@ -38,10 +38,22 @@ It is modern concept dashboard design with eye catchy colors. Wish you happy to 
 
 ## Getting Started
 
-Clone from Github
+1. Clone from Github
 
 ```
 git clone https://github.com/codedthemes/datta-able-bootstrap-dashboard.git
+```
+
+2. Install packages
+
+```
+ npm i
+```
+
+3. Run project
+
+```
+gulp
 ```
 
 ## Download
