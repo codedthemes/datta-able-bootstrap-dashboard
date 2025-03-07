@@ -1,8 +1,10 @@
 # Datta Able Free Bootstrap 5 Admin Template
 
-Datta Able Free Dashboard Template made using Bootstrap 5 framework, It is a free lite version of [Datta Able Pro](https://codedthemes.com/item/datta-able-premium/) Dashboard Template that makes you fulfill your Dashboard needs.
-
-![Datta Able Free Admin Template Preview Image](https://org-public-assets.s3.us-west-2.amazonaws.com/Free-Version-Banners/GITHUB-FREE-BOOTSTRAP-REPO-Datta+able.jpg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://codedthemes.com/item/datta-able-bootstrap-lite/)
+[![GitHub package version](https://img.shields.io/github/package-json/v/codedthemes/datta-able-bootstrap-dashboard)](https://github.com/codedthemes/datta-able-bootstrap-dashboard)
+[![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue?style=flat-square&logo=github)](https://codedthemes.com/item/datta-able-bootstrap-lite/)
+[![Join Discord](https://img.shields.io/badge/Join-Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/invite/p2E2WhCb6s)
 
 Datta Able Admin Template comes with variety of components like Button, Badges, Tabs, Breadcrumb, Icons, Form elements, Table, Charts & Authentication pages.
 
@@ -11,45 +13,28 @@ The code structure is high flexible to use and modify.
 Its design adapt any screen size easily even if retina screens.
 
 It is modern concept dashboard design with eye catchy colors. Wish you happy to use our product in your project.
+✨ Support us! If you like this theme, click the ⭐ (Top right) and let it shine
 
-## Free Version Preview & Download
-
-Check out live preview of Datta Able lite version & download it.
-
-#### Preview
-
-- [Demo](http://lite.codedthemes.com/datta-able/bootstrap)
-
-#### Download
-
-- [Download from Github](https://github.com/codedthemes/datta-able-bootstrap-dashboard.git)
-- [Download from CodedThemes](https://codedthemes.com/item/datta-able-bootstrap-lite/) & receive important notification instantly in your maiL.
-
-## Premium Version Preview & Download
-
-Datta Able Pro Admin Template is available to purchase. Visit its numerous demos and make your purchase decision.
-
-#### Preview
-
-- [Demo](https://codedthemes.com/demos/admin-templates/datta-able/bootstrap/default/)
-
-#### Download
-
-- [Purchase from CodedThemes](https://codedthemes.com/item/datta-able-premium)
+![Datta Able Free Admin Template Preview Image](https://org-public-assets.s3.us-west-2.amazonaws.com/Free-Version-Banners/GITHUB-FREE-BOOTSTRAP-REPO-Datta+able.jpg)
 
 ## Table of contents
 
 - [Getting Started](#getting-started)
-- [Online Documentation](#online-documentation)
-- [Build With](#build-with)
-- [Directory-structure](#directory-structure)
-- [RoadMap](#roadmap)
-- [Author](#author)
-- [Contributing](#contributing)
+- [Download](#download)
+- [Why Datta Able?](#why-datta-able)
+- [What's included in Premium Version?](#whats-included-in-premium-version)
+- [Documentation](#documentation)
+- [Browser support](#browser-support)
+- [Technology Stack](#technology-stack)
+- [Other Technologies](#other-technologies)
+- 💰[Save more with Big Bundle](#save-more-with-big-bundle)💰
+- [More Bootstrap Dashboard Templates](#more-bootstrap-dashboard-templates)
 - [Issues?](#issues)
 - [License](#license)
-- [Other Dashboard Products](#other-dashboard-products)
-- [Social Profiles](#social-profiles)
+- [Contributor](#contributor)
+- [Useful Resources](#useful-resources)
+- [Community](#community)
+- [Follow us](#follow-us)
 
 ## Getting Started
 
@@ -59,103 +44,118 @@ Clone from Github
 git clone https://github.com/codedthemes/datta-able-bootstrap-dashboard.git
 ```
 
-_no other dependencies required to run the Datta Able Template_
+## Download
 
-## Online Documentation
+- Datta Able Free
+  - [Live Preview](http://lite.codedthemes.com/datta-able/bootstrap)
+  - [Download](https://codedthemes.com/item/datta-able-bootstrap-lite/)
+- Datta Able Pro
+  - [Live Preview](https://codedthemes.com/demos/admin-templates/datta-able/bootstrap/default/)
+  - [Download](https://codedthemes.com/item/datta-able-premium)
 
-Datta Able Lite version documentation cover in its Pro version documentation - check our [website.](https://codedthemes.gitbook.io/datta/v/datta-able-bootstrap/)
+## Why Datta Able?
 
-## Build With
+Get started with a sweet set of features including:
 
-- [Bootstrap 5](https://getbootstrap.com/)
-- [SASS](https://sass-lang.com/) - SCSS file not included in lite version v1.0
+- Sleek and modern UI design
+- Built with Bootstrap components
+- Fully responsive and compatible with all modern browsers
+- Well-structured code
+- Simple and comprehensive documentation guide
 
-## Directory Structure
+## What's included in Premium Version?
 
-```
-Datta-able/
-├── assets/
-│   ├── css/
-│   │   ├── style.css
-│   ├── fonts/
-│   │   ├── feather/css/feather.css
-│   │   ├── fontawesome/css/fontawesome-all.min.css
-│   │   ├── datta/datta-icon.css
-│   ├── images/
-│   │   ├── user/
-│   │   │   ├── avatar-1.jpg
-│   │   │   ├── avatar-2.jpg
-│   │   │   ├── ...-More
-│   │   ├── logo.png
-│   │   ├── ...-More
-│   ├── js/
-│   │   ├── pages/
-│   │   │   ├── chart-morris-custom.js
-│   │   │   ├── google-maps.js
-│   │   ├── vendor-all.min.js
-│   │   ├── pcoded.min.js
-│   ├── plugins/
-│   │   ├── jquery/
-│   │   │   ├── js/
-│   │   │   │   ├── jquery.min.js
-│   │   ├── bootstrap/
-│   │   │   ├── css/
-│   │   │   │   ├── bootstrap.min.css
-│   │   │   ├── js/
-│   │   │   │   ├── bootstrap.min.js
-│   │   ├── ...-More
-├── index.html
-├── ...- More
-```
+[Pro version](https://codedthemes.com/item/datta-able-bootstrap-admin-template/) of Datta Able Bootstrap 5 Admin Template contains features like customize with light/dark/system, collapse, LTR / RTL, full/fixed width, color presets and many more.
 
-## RoadMap
+| [Datta Able Free](https://codedthemes.com/item/datta-able-bootstrap-lite/) | [Datta able Pro](https://codedthemes.com/item/datta-able-bootstrap-admin-template/)                |
+| -------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------ |
+| **9** Demo pages                                                                                   | **130+** demo pages                                                |
+| -                                                                                                  | ✓ Multi-language                                                  |
+| -                                                                                                  | ✓ Dark/Light Mode 🌓                                              |
+| -                                                                                                  | ✓ 6+ Color Setting Option                                                |
+| -                                                                                                  | ✓ RTL                                                             |
+| ✓ MIT License                                                                                      | ✓ [Pro License](https://codedthemes.com/item/datta-able-angular/?utm_source=free_demo&utm_medium=codedthemes&utm_campaign=button_download_premium) |
 
-We are continuously working in Datta Able Project and going to make it a awesome dashboard template via your support. Give us the ideas, suggestion for include more components, pages, plugins. Few of future release pages are
+## Documentation
 
-#### Layouts
+[Datta Able Bootstrap Documentation](https://codedthemes.gitbook.io/datta/v/datta-able-bootstrap/) helps you with installation, deployment, and troubleshooting.
 
-- Horizontal version
-- Sidebar Image version
-- Introduce Live Customizer (i.e. only for demo)
+## Browser support
 
-#### Pages
+<img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/chrome.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/edge.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/safari.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/firefox.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/opera.png" width="45" height="45" >
 
-- Pricing
-- Login/Register pages version 2
-- User profile
-- Maintenance Pages like 404, Error Pages, Coming Soon
+## Technology Stack
 
-#### Basic & Advance Components
+- Bootstrap 5
+- No Jquery
+- npm/yarn package installer
+- Gulp support 
 
-- Alert, Cards, Progress, Modal
-- Datepicker, Notification, Slider
+## Other Technologies
 
-_All above pages already included in Pro version. We need your support to include those pages in lite version too._
+| Technology                                                                                                                        | Free                                                                               | Pro                                                                       |
+| --------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/React.png" width="25" height="25"></p>   | [**Free**](https://codedthemes.com/item/datta-able-react-free-admin-template/)       | [**Pro**](https://codedthemes.com/item/datta-able-react-admin-template/)    |
+| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Angular.png" width="30" height="30"></p> | [**Free**](https://codedthemes.com/item/datta-able-angular-lite/)     | [**Pro**](https://codedthemes.com/item/datta-able-angular/) |
+| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/tailwind.png" width="25" height="25"></p>       | [**Free**](https://codedthemes.com/item/datta-able-free-tailwind-admin-template/) | [**Pro**](https://codedthemes.com/item/datta-able-tailwind-admin-template/)        |
+| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/laravel.png" width="25" height="25"></p>       | - | [**Pro**](https://codedthemes.com/item/datta-able-laravel-admin-dashboard/)        |
+ 
+## Save more with Big Bundle
 
-## Author
+[![bundle-image](https://org-public-assets.s3.us-west-2.amazonaws.com/Banners/Bundle+banner.png)](https://links.codedthemes.com/jhFBJ)
 
-Design and code is completely written by CodedThemes's design and development team. We are happy to welcome the contributors work for our all repositories.
+## More Bootstrap Dashboard Templates
+
+| Dashboard                                                                                                                                                          | FREE                                                                                | PRO                                                                                   |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Berry%20with%20name.png"  height="30" style="display:inline-block; vertical-align:middle;">   | [**Free**](https://codedthemes.com/item/berry-mui-free-react-admin-template/)       | [**Pro**](https://codedthemes.com/item/berry-material-react-admin-template/)</span>   |
+| <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Mantis%20with%20name.png" height="30" style="display:inline-block; vertical-align:middle;">    | [**Free**](https://codedthemes.com/item/mantis-free-mui-admin-template/)      | [**Pro**](https://codedthemes.com/item/mantis-mui-react-dashboard-template/)</span>       |
+| <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Gradient%20with%20name.png" height="30" style="display:inline-block; vertical-align:middle;"> | [**Free**](https://codedthemes.com/item/gradient-able-reactjs-free-admin-template/) | [**Pro**](https://codedthemes.com/item/gradient-able-reactjs-admin-dashboard/)</span> |
 
 ## Issues
 
-Please generate Github issue if you found bug in any version. We are try to be responsive to resolve the issue.
+If you found a bug in any version, please generate a [GitHub issue](https://github.com/codedthemes/datta-able-bootstrap-dashboard/issues). We are trying our best to resolve the issue.
 
 ## License
 
-- Design and Code is Copyright &copy; [CodedThemes](https://www.codedthemes.com)
-- Licensed cover under [MIT](https://github.com/codedthemes/datta-able-bootstrap-dashboard/blob/master/LICENSE)
+- Licensed under [MIT](https://github.com/codedthemes/datta-able-bootstrap-dashboard/blob/readme/LICENSE)
+- Copyright © [CodedThemes](https://codedthemes.com/)
 
-## Other Dashboard Products
+## Contributor 
 
-- [Free Bootstrap 5 Admin Template](https://codedthemes.com/item/category/free-templates/free-bootstrap-admin-templates)
-- [Free React Dashboard Template](https://codedthemes.com/item/category/free-templates/free-react-admin-templates)
-- [Free Angular Dashboard Template](https://codedthemes.com/item/category/free-templates/free-angular-admin-templates)
-- [Premium Bootstrap & Angular Admin Template](https://codedthemes.com/item/category/templates/admin-templates/)
+**CodedThemes Team**
 
-## Social Profiles
+- https://x.com/codedthemes
+- https://github.com/codedthemes
 
-- Dribbble [https://dribbble.com/codedthemes](https://dribbble.com/codedthemes)
-- Behance [https://www.behance.net/codedthemes](https://www.behance.net/codedthemes)
-- Facebook [https://www.facebook.com/codedthemes](https://www.facebook.com/codedthemes)
-- Twitter [https://twitter.com/codedthemes](https://twitter.com/codedthemes)
-- Instagram [https://www.instagram.com/codedthemes/](https://www.instagram.com/codedthemes/)
+**Rakesh Nakrani**
+
+- https://x.com/rakesh_nakrani
+
+**Brijesh Dobariya**
+
+- https://x.com/dobaria_brijesh
+
+## Useful Resources
+
+- [More Admin Templates From CodedThemes](https://codedthemes.com/item/category/admin-templates/)
+- [Freebies From CodedThemes](https://codedthemes.com/item/category/free-templates/)
+- [Big Bundles](https://codedthemes.com/item/big-bundle/)
+- [Figma UI Kits](https://codedthemes.com/item/category/templates/figma/)
+- [Affiliate Program](https://codedthemes.com/affiliate/)
+- [Blogs](https://blog.codedthemes.com/)
+
+## Community
+
+- 👥Follow [@codedthemes](https://x.com/codedthemes)
+- 🔗Join [Discord](https://discord.com/invite/p2E2WhCb6s)
+- 🔔Subscribe to [Codedtheme Blogs](https://blog.codedthemes.com/)
+
+## Follow Us
+
+- [Twitter](https://twitter.com/codedthemes) 🐦
+- [Dribbble](https://dribbble.com/codedthemes) 🏀
+- [Github](https://github.com/codedthemes) 🐙
+- [LinkedIn](https://www.linkedin.com/company/codedthemes/) 💼
+- [Instagram](https://www.instagram.com/codedthemes/) 📷
+- [Facebook](https://www.facebook.com/codedthemes) 🟦
