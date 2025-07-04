@@ -114,7 +114,7 @@
 }
 
 @include media-breakpoint-down(sm) {
-  .card {
+  .card:not(.table-card) {
     margin-bottom: 20px;
     .card-header {
       padding: 20px;
