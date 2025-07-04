@@ -109,11 +109,6 @@ $i: 1;
     stroke: $value;
   }
 
-  .material-icons-two-tone {
-    &.text-#{$color} {
-      background-color: $value;
-    }
-  }
   .text-hover-#{$color}:hover {
     color: $value !important;
   }

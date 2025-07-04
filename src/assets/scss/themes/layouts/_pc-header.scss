@@ -152,10 +152,6 @@
           }
         }
       }
-
-      i.material-icons-two-tone {
-        background-color: $secondary;
-      }
     }
 
     .pc-h-badge {
@@ -278,7 +274,7 @@
     }
   }
 
-  .user-avtar {
+  .user-avatar {
     width: 40px;
     border-radius: 50%;
   }
@@ -290,7 +286,7 @@
 
       &:focus,
       &:hover {
-        .user-avtar {
+        .user-avatar {
           transform: scale(1.03);
         }
       }
@@ -300,7 +296,7 @@
         margin-right: 8px;
       }
 
-      .user-avtar {
+      .user-avatar {
         width: 40px;
         transition: all 0.08s cubic-bezier(0.37, 0.24, 0.53, 0.99);
       }
@@ -308,7 +304,7 @@
       @include media-breakpoint-down(sm) {
         width: 40px;
 
-        .user-avtar {
+        .user-avatar {
           margin-right: 0;
         }
 
@@ -342,7 +338,7 @@
       }
 
       .user-group {
-        .avtar,
+        .avatar,
         img {
           width: 30px;
           height: 30px;
@@ -369,7 +365,7 @@
         background: shift-color($primary, $soft-bg-level);
       }
 
-      .user-avtar,
+      .user-avatar,
       h5 {
         cursor: pointer;
       }
@@ -380,7 +376,7 @@
       padding: 0.43em 1em;
     }
 
-    .user-avtar {
+    .user-avatar {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -417,7 +413,7 @@
   background-size: cover;
 
   .user-group {
-    .avtar,
+    .avatar,
     img {
       font-size: 14px;
     }
@@ -428,7 +424,7 @@
   display: inline-flex;
   align-items: center;
 
-  .avtar,
+  .avatar,
   img {
     cursor: pointer;
     position: relative;
@@ -439,7 +435,7 @@
     transition: all 0.1s ease-in-out;
     border: 2px solid $card-bg;
 
-    + .avtar,
+    + .avatar,
     + img {
       margin-left: -14px;
     }

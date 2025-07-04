@@ -23,17 +23,19 @@ function layout_change_default() {
   // Apply the initial layout
   layout_change(dark_layout);
 
-  // Set the active class on the default theme button, if it exists
-  const btn_control = document.querySelector('.theme-layout .btn[data-value="default"]');
-  if (btn_control) {
-    btn_control.classList.add('active');
-  }
-
   // Listen for changes in the user's system color scheme preference
   prefersDarkScheme.addEventListener('change', (event) => {
     dark_layout = event.matches ? 'dark' : 'light';
     layout_change(dark_layout);
   });
+
+  // Set the active class on the default theme button, if it exists
+  const btn_control = document.querySelector('.theme-layout .btn[data-value="default"]');
+  if (btn_control) {
+    btn_control.classList.add('active');
+    var activeBtn = document.querySelector('.theme-layout .btn.active');
+    if (activeBtn) activeBtn.classList.remove('active');
+  }
 }
 
 // dark switch mode
@@ -157,6 +159,7 @@ function header_change(value) {
   change_attribute('header', value, '.header-color');
 }
 function navbar_change(value) {
+  document.body.removeAttribute('data-pc-navimg');
   change_attribute('navbar', value, '.navbar-color');
 }
 function logo_change(value) {
@@ -203,6 +206,7 @@ function drp_menu_link_icon_change(value) {
 
 function nav_image_change(value) {
   const body = document.body;
+  body.removeAttribute('data-pc-navbar');
   body.setAttribute('data-pc-navimg', value); // Set the nav image attribute
 
   const activeNavImg = document.querySelector('.navbar-img > a.active');
@@ -272,6 +276,7 @@ function layout_change(layout) {
   // Update logos across multiple locations
   updateLogo('.footer-top .footer-logo', logoPath);
   updateLogo('.brand-logo', logoPath);
+  updateLogo('.invoice-logo', logoPath);
   updateLogo('.auth-wrapper:not(.v3) a>img', logoPath);
   updateLogo('[data-pc-layout="horizontal"] .pc-sidebar .m-header .logo-lg', logoPath);
 

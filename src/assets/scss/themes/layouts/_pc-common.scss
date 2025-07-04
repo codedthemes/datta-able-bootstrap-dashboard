@@ -3,7 +3,7 @@
 // ============================
 
 .pc-container {
-  $temp: $header-height + 61;
+  $temp: $header-height + 66;
   position: relative;
   top: $header-height;
   margin-left: $sidebar-width;
@@ -51,8 +51,6 @@
 
   h5 {
     margin-bottom: 0;
-    margin-right: 8px;
-    padding-right: 8px;
     font-weight: 500;
   }
 
