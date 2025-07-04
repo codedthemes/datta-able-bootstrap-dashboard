@@ -22,14 +22,10 @@
     <link rel="icon" href="../assets/images/favicon.svg" type="image/x-icon" />
  <!-- [Font] Family -->
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<!-- [phosphor Icons] https://phosphoricons.com/ -->
+<link rel="stylesheet" href="../assets/fonts/phosphor/regular/style.css" />
 <!-- [Tabler Icons] https://tablericons.com -->
 <link rel="stylesheet" href="../assets/fonts/tabler-icons.min.css" />
-<!-- [Feather Icons] https://feathericons.com -->
-<link rel="stylesheet" href="../assets/fonts/feather.css" />
-<!-- [Font Awesome Icons] https://fontawesome.com/icons -->
-<link rel="stylesheet" href="../assets/fonts/fontawesome.css" />
-<!-- [Material Icons] https://fonts.google.com/icons -->
-<link rel="stylesheet" href="../assets/fonts/material.css" />
 <!-- [Template CSS Files] -->
 <link rel="stylesheet" href="../assets/css/style.css" id="main-style-link" />
 <link rel="stylesheet" href="../assets/css/style-preset.css" />
@@ -103,113 +99,118 @@
     <div class="navbar-content">
       <ul class="pc-navbar">
         <li class="pc-item pc-caption">
-          <label>Navigation</label>
+          <label data-i18n="Navigation">Navigation</label>
         </li>
         <li class="pc-item">
           <a href="../dashboard/index.html" class="pc-link">
             <span class="pc-micon">
-              <i data-feather="home"></i>
+              <i class="ph ph-house-line"></i>
             </span>
-            <span class="pc-mtext">Dashboard</span>
+            <span class="pc-mtext" data-i18n="Dashboard">Dashboard</span>
           </a>
         </li>
+
         <li class="pc-item pc-caption">
-          <label>UI Components</label>
-          <i data-feather="feather"></i>
+          <label data-i18n="UI Components">UI Components</label>
+          <i class="ph ph-pencil-ruler"></i>
         </li>
         <li class="pc-item">
           <a href="../elements/bc_color.html" class="pc-link">
-            <span class="pc-micon"><i data-feather="droplet"></i></span>
+            <span class="pc-micon"><i class="ph ph-palette"></i></span>
             <span class="pc-mtext">Color</span>
           </a>
         </li>
         <li class="pc-item">
           <a href="../elements/bc_typography.html" class="pc-link">
-            <span class="pc-micon"><i data-feather="type"></i></span>
+            <span class="pc-micon"><i class="ph ph-text-aa"></i></span>
             <span class="pc-mtext">Typography</span>
           </a>
         </li>
         <li class="pc-item">
-          <a href="../elements/icon-feather.html" class="pc-link">
-            <span class="pc-micon"><i data-feather="feather"></i></span>
+          <a href="../elements/icon-phosphor.html" class="pc-link">
+            <span class="pc-micon"> <i class="ph ph-feather"></i></span>
             <span class="pc-mtext">Icons</span>
           </a>
         </li>
+
         <li class="pc-item pc-caption">
-          <label>Pages</label>
-          <i data-feather="monitor"></i>
+          <label data-i18n="pages">Pages</label>
+          <i class="ph ph-shield-checkered"></i>
         </li>
         <li class="pc-item">
-          <a href="../pages/login-v1.html" target="_blank" class="pc-link">
-            <span class="pc-micon"><i data-feather="lock"></i></span>
+          <a href="../pages/login-v1.html" class="pc-link" target="_blank">
+            <span class="pc-micon"> <i class="ph ph-lock-key"></i></span>
             <span class="pc-mtext">Login</span>
           </a>
         </li>
         <li class="pc-item">
-          <a href="../pages/register-v1.html" target="_blank" class="pc-link">
-            <span class="pc-micon"><i data-feather="user-plus"></i></span>
+          <a href="../pages/register-v1.html" class="pc-link" target="_blank">
+            <span class="pc-micon"> <i class="ph ph-user-circle-plus"></i></span>
             <span class="pc-mtext">Register</span>
           </a>
         </li>
+
         <li class="pc-item pc-caption">
-          <label>Other</label>
-          <i data-feather="sidebar"></i>
+          <label data-i18n="Other">Other</label>
+          <i class="ph ph-tree-structure"></i>
         </li>
         <li class="pc-item pc-hasmenu">
-          <a href="#!" class="pc-link">
-            <span class="pc-micon">
-              <i data-feather="align-right"></i>
-            </span>
-            <span class="pc-mtext">Menu levels</span><span class="pc-arrow"><i class="ti ti-chevron-right"></i></span>
-          </a>
+          <a href="#!" class="pc-link"
+            ><span class="pc-micon"> <i class="ph ph-tree-structure"></i> </span><span class="pc-mtext" data-i18n="Menu levels">Menu levels</span
+            ><span class="pc-arrow"><i class="ti ti-chevron-right"></i></span
+          ></a>
           <ul class="pc-submenu">
-            <li class="pc-item"><a class="pc-link" href="#!">Level 2.1</a></li>
+            <li class="pc-item"><a class="pc-link" href="#!" data-i18n="Level 2.1">Level 2.1</a></li>
             <li class="pc-item pc-hasmenu">
-              <a href="#!" class="pc-link"
-                >Level 2.2<span class="pc-arrow"><i class="ti ti-chevron-right"></i></span
+              <a href="#!" class="pc-link">
+                <span data-i18n="Level 2.2">Level 2.2</span>
+                <span class="pc-arrow"><i class="ti ti-chevron-right"></i></span
               ></a>
               <ul class="pc-submenu">
-                <li class="pc-item"><a class="pc-link" href="#!">Level 3.1</a></li>
-                <li class="pc-item"><a class="pc-link" href="#!">Level 3.2</a></li>
+                <li class="pc-item"><a class="pc-link" href="#!" data-i18n="Level 3.1">Level 3.1</a></li>
+                <li class="pc-item"><a class="pc-link" href="#!" data-i18n="Level 3.2">Level 3.2</a></li>
                 <li class="pc-item pc-hasmenu">
-                  <a href="#!" class="pc-link"
-                    >Level 3.3<span class="pc-arrow"><i class="ti ti-chevron-right"></i></span
-                  ></a>
+                  <a href="#!" class="pc-link">
+                    <span data-i18n="Level 3.3">Level 3.3</span>
+                    <span class="pc-arrow"><i class="ti ti-chevron-right"></i></span>
+                  </a>
                   <ul class="pc-submenu">
-                    <li class="pc-item"><a class="pc-link" href="#!">Level 4.1</a></li>
-                    <li class="pc-item"><a class="pc-link" href="#!">Level 4.2</a></li>
+                    <li class="pc-item"><a class="pc-link" href="#!" data-i18n="Level 4.1">Level 4.1</a></li>
+                    <li class="pc-item"><a class="pc-link" href="#!" data-i18n="Level 4.2">Level 4.2</a></li>
                   </ul>
                 </li>
               </ul>
             </li>
             <li class="pc-item pc-hasmenu">
-              <a href="#!" class="pc-link"
-                >Level 2.3<span class="pc-arrow"><i class="ti ti-chevron-right"></i></span
+              <a href="#!" class="pc-link">
+                <span data-i18n="Level 2.3">Level 2.3</span>
+                <span class="pc-arrow"><i class="ti ti-chevron-right"></i></span
               ></a>
               <ul class="pc-submenu">
-                <li class="pc-item"><a class="pc-link" href="#!">Level 3.1</a></li>
-                <li class="pc-item"><a class="pc-link" href="#!">Level 3.2</a></li>
+                <li class="pc-item"><a class="pc-link" href="#!" data-i18n="Level 3.1">Level 3.1</a></li>
+                <li class="pc-item"><a class="pc-link" href="#!" data-i18n="Level 3.2">Level 3.2</a></li>
                 <li class="pc-item pc-hasmenu">
                   <a href="#!" class="pc-link">
-                    Level 3.3
+                    <span data-i18n="Level 3.3">Level 3.3</span>
                     <span class="pc-arrow"><i class="ti ti-chevron-right"></i></span>
                   </a>
                   <ul class="pc-submenu">
-                    <li class="pc-item"><a class="pc-link" href="#!">Level 4.1</a></li>
-                    <li class="pc-item"><a class="pc-link" href="#!">Level 4.2</a></li>
+                    <li class="pc-item"><a class="pc-link" href="#!" data-i18n="Level 4.1">Level 4.1</a></li>
+                    <li class="pc-item"><a class="pc-link" href="#!" data-i18n="Level 4.2">Level 4.2</a></li>
                   </ul>
                 </li>
               </ul>
             </li>
           </ul>
         </li>
-        <li class="pc-item">
-          <a href="../other/sample-page.html" class="pc-link">
-            <span class="pc-micon"><i data-feather="sidebar"></i></span>
-            <span class="pc-mtext">Sample page</span>
-          </a>
-        </li>
-
+        <li class="pc-item"
+          ><a href="../other/sample-page.html" class="pc-link">
+            <span class="pc-micon">
+              <i class="ph ph-desktop"></i>
+            </span>
+            <span class="pc-mtext" data-i18n="Sample Page">Sample page</span></a
+          ></li
+        >
       </ul>
       <div class="card pc-user-card my-3 bg-white bg-opacity-10">
         <div class="card-body text-center">
@@ -217,9 +218,7 @@
           <h5 class="mb-0 text-white mt-1">Datta Able</h5>
           <p class="text-white">Checkout pro features</p>
           <a href="https://codedthemes.com/item/datta-able-bootstrap-admin-template/" target="_blank" class="btn btn-warning">
-            <svg class="pc-icon me-2">
-              <use xlink:href="#custom-logout-1-outline"></use>
-            </svg>
+            <i class=" ph ph-sign-out align-middle me-2"></i>
             Upgrade to Pro
           </a>
         </div>
@@ -233,15 +232,14 @@
   <div class="header-wrapper"> <!-- [Mobile Media Block] start -->
 <div class="me-auto pc-mob-drp">
   <ul class="list-unstyled">
-    <!-- ======= Menu collapse Icon ===== -->
     <li class="pc-h-item pc-sidebar-collapse">
       <a href="#" class="pc-head-link ms-0" id="sidebar-hide">
-        <i data-feather="menu"></i>
+        <i class="ph ph-list"></i>
       </a>
     </li>
     <li class="pc-h-item pc-sidebar-popup">
       <a href="#" class="pc-head-link ms-0" id="mobile-collapse">
-        <i data-feather="menu"></i>
+        <i class="ph ph-list"></i>
       </a>
     </li>
     <li class="dropdown pc-h-item">
@@ -253,7 +251,7 @@
         aria-haspopup="false"
         aria-expanded="false"
       >
-        <i data-feather="search"></i>
+        <i class="ph ph-magnifying-glass"></i>
       </a>
       <div class="dropdown-menu pc-h-dropdown drp-search">
         <form class="px-3 py-2">
@@ -275,7 +273,7 @@
         aria-haspopup="false"
         aria-expanded="false"
       >
-        <i data-feather="bell"></i>
+        <i class="ph ph-bell"></i>
         <span class="badge bg-success pc-h-badge">3</span>
       </a>
       <div class="dropdown-menu dropdown-notification dropdown-menu-end pc-h-dropdown">
@@ -285,28 +283,28 @@
         </div>
         <div class="dropdown-body text-wrap header-notification-scroll position-relative" style="max-height: calc(100vh - 215px)">
           <p class="text-span">Today</p>
-          <div class="card mb-0">
+          <div class="card bg-transparent mb-0">
             <div class="card-body">
               <div class="d-flex">
                 <div class="flex-shrink-0">
-                  <img class="img-radius avtar rounded-0" src="../assets/images/user/avatar-1.jpg" alt="Generic placeholder image" />
+                  <img class="img-radius avatar rounded-0" src="../assets/images/user/avatar-1.png" alt="Generic placeholder image" />
                 </div>
                 <div class="flex-grow-1 ms-3">
                   <span class="float-end text-sm text-muted">2 min ago</span>
                   <h5 class="text-body mb-2">UI/UX Design</h5>
-                  <p class="mb-0"
-                    >Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                    type and scrambled it to make a type</p
-                  >
+                  <p class="mb-0">
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="card mb-0">
+          <div class="card bg-transparent mb-0">
             <div class="card-body">
               <div class="d-flex">
                 <div class="flex-shrink-0">
-                  <img class="img-radius avtar rounded-0" src="../assets/images/user/avatar-2.jpg" alt="Generic placeholder image" />
+                  <img class="img-radius avatar rounded-0" src="../assets/images/user/avatar-2.png" alt="Generic placeholder image" />
                 </div>
                 <div class="flex-grow-1 ms-3">
                   <span class="float-end text-sm text-muted">1 hour ago</span>
@@ -317,11 +315,11 @@
             </div>
           </div>
           <p class="text-span">Yesterday</p>
-          <div class="card mb-0">
+          <div class="card bg-transparent mb-0">
             <div class="card-body">
               <div class="d-flex">
                 <div class="flex-shrink-0">
-                  <img class="img-radius avtar rounded-0" src="../assets/images/user/avatar-3.jpg" alt="Generic placeholder image" />
+                  <img class="img-radius avatar rounded-0" src="../assets/images/user/avatar-3.png" alt="Generic placeholder image" />
                 </div>
                 <div class="flex-grow-1 ms-3">
                   <span class="float-end text-sm text-muted">2 hour ago</span>
@@ -334,11 +332,11 @@
               </div>
             </div>
           </div>
-          <div class="card mb-0">
+          <div class="card bg-transparent mb-0">
             <div class="card-body">
               <div class="d-flex">
                 <div class="flex-shrink-0">
-                  <img class="img-radius avtar rounded-0" src="../assets/images/user/avatar-4.jpg" alt="Generic placeholder image" />
+                  <img class="img-radius avatar rounded-0" src="../assets/images/user/avatar-4.png" alt="Generic placeholder image" />
                 </div>
                 <div class="flex-grow-1 ms-3">
                   <span class="float-end text-sm text-muted">12 hour ago</span>
@@ -350,11 +348,11 @@
               </div>
             </div>
           </div>
-          <div class="card mb-0">
+          <div class="card bg-transparent mb-0">
             <div class="card-body">
               <div class="d-flex">
                 <div class="flex-shrink-0">
-                  <img class="img-radius avtar rounded-0" src="../assets/images/user/avatar-5.jpg" alt="Generic placeholder image" />
+                  <img class="img-radius avatar rounded-0" src="../assets/images/user/avatar-5.png" alt="Generic placeholder image" />
                 </div>
                 <div class="flex-grow-1 ms-3">
                   <span class="float-end text-sm text-muted">5 hour ago</span>
@@ -383,13 +381,13 @@
         data-bs-auto-close="outside"
         aria-expanded="false"
       >
-        <i data-feather="user"></i>
+        <i class="ph ph-user-circle"></i>
       </a>
       <div class="dropdown-menu dropdown-user-profile dropdown-menu-end pc-h-dropdown p-0 overflow-hidden">
         <div class="dropdown-header d-flex align-items-center justify-content-between bg-primary">
           <div class="d-flex my-2">
             <div class="flex-shrink-0">
-              <img src="../assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar wid-35" />
+              <img src="../assets/images/user/avatar-2.png" alt="user-image" class="user-avatar wid-35" />
             </div>
             <div class="flex-grow-1 ms-3">
               <h6 class="text-white mb-1">Carson Darrin 🖖</h6>
@@ -401,34 +399,24 @@
           <div class="profile-notification-scroll position-relative" style="max-height: calc(100vh - 225px)">
             <a href="#" class="dropdown-item">
               <span>
-                <svg class="pc-icon text-muted me-2">
-                  <use xlink:href="#custom-setting-outline"></use>
-                </svg>
+                <i class="ph ph-gear align-middle me-2"></i>
                 <span>Settings</span>
               </span>
             </a>
             <a href="#" class="dropdown-item">
               <span>
-                <svg class="pc-icon text-muted me-2">
-                  <use xlink:href="#custom-share-bold"></use>
-                </svg>
+                <i class="ph ph-share-network align-middle me-2"></i>
                 <span>Share</span>
               </span>
             </a>
             <a href="#" class="dropdown-item">
               <span>
-                <svg class="pc-icon text-muted me-2">
-                  <use xlink:href="#custom-lock-outline"></use>
-                </svg>
+                <i class="ph ph-lock-key align-middle me-2"></i>
                 <span>Change Password</span>
               </span>
             </a>
             <div class="d-grid my-2">
-              <button class="btn btn-primary">
-                <svg class="pc-icon me-2">
-                  <use xlink:href="#custom-logout-1-outline"></use></svg
-                >Logout
-              </button>
+              <button class="btn btn-primary"> <i class="ph ph-sign-out align-middle me-2"></i>Logout </button>
             </div>
           </div>
         </div>
@@ -682,7 +670,7 @@
           <div class="col my-1">
             <p class="m-0">Datta able &#9829; crafted by Team <a href="https://codedthemes.com/" target="_blank">Codedthemes</a></p>
           </div>
-          <div class="col-auto my-1">
+          <div class="col-md-auto my-1">
             <ul class="list-inline footer-link mb-0">
               <li class="list-inline-item"><a href="../index.html">Home</a></li>
             </ul>
@@ -694,10 +682,9 @@
 <script src="../assets/js/plugins/popper.min.js"></script>
 <script src="../assets/js/plugins/simplebar.min.js"></script>
 <script src="../assets/js/plugins/bootstrap.min.js"></script>
-<script src="../assets/js/fonts/custom-font.js"></script>
 <script src="../assets/js/script.js"></script>
 <script src="../assets/js/theme.js"></script>
-<script src="../assets/js/plugins/feather.min.js"></script>
+
 
    
 <script>

@@ -7,8 +7,12 @@
 
   i {
     font-size: 18px;
-    &.ph-duotone {
+    &.ph {
       vertical-align: text-bottom;
+    }
+    &.ti:not([class*='align-']) {
+      vertical-align: text-bottom;
+      line-height: 1.2;
     }
   }
 
@@ -45,22 +49,22 @@
     padding: 0;
     width: 40px;
     height: 40px;
-    &.avtar-xs {
+    &.avatar-xs {
       width: 20px;
       height: 20px;
       font-size: 10px;
     }
-    &.avtar-s {
+    &.avatar-s {
       width: 30px;
       height: 30px;
       font-size: 12px;
     }
-    &.avtar-l {
+    &.avatar-l {
       width: 50px;
       height: 50px;
       font-size: 18px;
     }
-    &.avtar-xl {
+    &.avatar-xl {
       width: 60px;
       height: 60px;
       font-size: 20px;
@@ -74,17 +78,11 @@
     background: shift-color($value, $soft-bg-level);
     color: $value;
     border-color: shift-color($value, $soft-bg-level);
-    .material-icons-two-tone {
-      background-color: $value;
-    }
 
     &:hover {
       background: $value;
       color: #fff;
       border-color: $value;
-      .material-icons-two-tone {
-        background-color: #fff;
-      }
     }
 
     &.focus,
@@ -92,9 +90,6 @@
       background: $value;
       color: #fff;
       border-color: $value;
-      .material-icons-two-tone {
-        background-color: #fff;
-      }
     }
 
     &:not(:disabled):not(.disabled).active,
@@ -103,9 +98,6 @@
       background: $value;
       color: #fff;
       border-color: $value;
-      .material-icons-two-tone {
-        background-color: #fff;
-      }
     }
   }
 
@@ -115,9 +107,6 @@
       background: $value;
       color: #fff;
       border-color: $value;
-      .material-icons-two-tone {
-        background-color: #fff;
-      }
     }
   }
   // light color end
@@ -126,9 +115,7 @@
     background: transparent;
     color: $value;
     border-color: transparent;
-    .material-icons-two-tone {
-      background-color: $value;
-    }
+
     &:hover {
       background: shift-color($value, $soft-bg-level);
       color: $value;
@@ -165,9 +152,6 @@
     background: transparent;
     color: var(--bs-secondary);
     border-color: transparent;
-    .material-icons-two-tone {
-      background-color: var(--bs-secondary);
-    }
     &:hover {
       background: shift-color($value, $soft-bg-level);
       color: $value;
@@ -206,17 +190,11 @@
     background: shift-color($value, $soft-bg-level);
     color: $value;
     border-color: shift-color($value, $soft-bg-level);
-    .material-icons-two-tone {
-      background-color: $value;
-    }
 
     &:hover {
       background: $value;
       color: #fff;
       border-color: $value;
-      .material-icons-two-tone {
-        background-color: #fff;
-      }
     }
 
     &.focus,
@@ -224,9 +202,6 @@
       background: $value;
       color: #fff;
       border-color: $value;
-      .material-icons-two-tone {
-        background-color: #fff;
-      }
     }
 
     &:not(:disabled):not(.disabled).active,
@@ -235,9 +210,6 @@
       background: $value;
       color: #fff;
       border-color: $value;
-      .material-icons-two-tone {
-        background-color: #fff;
-      }
     }
   }
 }

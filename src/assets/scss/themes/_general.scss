@@ -46,6 +46,9 @@ b,
 strong {
   font-weight: 600;
 }
+.ti:not([class*='align-']) {
+  vertical-align: middle;
+}
 
 .breadcrumb-default-icon {
   .breadcrumb-item + .breadcrumb-item::before {
@@ -78,17 +81,6 @@ strong {
   }
 }
 
-.material-icons-two-tone {
-  background-color: $body-color;
-  -webkit-text-fill-color: transparent;
-  vertical-align: text-bottom;
-  -webkit-background-clip: text;
-
-  &.text-white {
-    background-color: #fff;
-  }
-}
-
 .img-radius {
   border-radius: 50%;
 }
@@ -105,6 +97,10 @@ strong {
 .peity-full-width .peity {
   width: 100%;
   height: 125px;
+}
+.apexcharts-tooltip-series-group.apexcharts-active,
+.apexcharts-tooltip-series-group:last-child {
+  padding-bottom: 0 !important;
 }
 // ==============  highlight code css start  ================
 
@@ -337,16 +333,6 @@ pre[class*='language-'] {
 
 /* ================================    Blockquote Start  ===================== */
 
-svg.feather {
-  &:not([class*='wid-']) {
-    width: 20px;
-  }
-
-  &:not([class*='hei-']) {
-    height: 20px;
-  }
-}
-
 @media (min-width: 1600px) {
   .container {
     max-width: 1540px;
@@ -449,7 +435,12 @@ pre[class*='language-'] > code {
     }
   }
 }
-
+.breadcrumb-svg {
+  .breadcrumb-item + .breadcrumb-item::before {
+    position: relative;
+    top: 2px;
+  }
+}
 .pagination {
   .page-item {
     .page-link {
