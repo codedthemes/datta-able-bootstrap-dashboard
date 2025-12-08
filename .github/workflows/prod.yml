@@ -36,7 +36,7 @@ jobs:
 
       - name: 📦 Create version ZIP
         run: |
-          zip -r "datta-bootstrap-v${VERSION}.zip" . \
+          zip -r "datta-able-bootstrap-v${VERSION}.zip" . \
             -x ".git/*" \
             -x ".github/workflows/*" \
             -x ".gitignore" \
@@ -54,5 +54,5 @@ jobs:
 
       - name: 🚀 Upload ZIP to S3
         run: |
-          aws s3 cp "datta-bootstrap-v${VERSION}.zip" \
-          "s3://${{ secrets.AWS_S3_BUCKET }}/Datta/Bootstrap/datta-bootstrap-v${VERSION}.zip"
+          aws s3 cp "datta-able-bootstrap-v${VERSION}.zip" \
+          "s3://${{ secrets.AWS_S3_BUCKET }}/DattaAble/Bootstrap/datta-able-bootstrap-v${VERSION}.zip"
