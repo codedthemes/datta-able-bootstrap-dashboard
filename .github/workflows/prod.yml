@@ -20,7 +20,7 @@ jobs:
 
     steps:
       - name: 🚚 Get latest code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: 📂 Deploy to Server
         uses: easingthemes/ssh-deploy@v4
@@ -36,7 +36,7 @@ jobs:
           
       - name: Read version
         id: version
-        run: echo "VERSION=$(jq -r .version full-version/package.json)" >> $GITHUB_ENV
+        run: echo "VERSION=$(jq -r .version package.json)" >> $GITHUB_ENV
 
       - name: 📦 Create version ZIP
         run: |
@@ -44,10 +44,7 @@ jobs:
             -x ".git/*" \
             -x ".github/workflows/*" \
             -x ".gitignore" \
-            -x "package.json" \
-            -x "package-lock.json" \
-            -x "node_modules/*" \
-            -x "dist/*"
+            -x "node_modules/*" 
 
       - name: 🔑 Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
