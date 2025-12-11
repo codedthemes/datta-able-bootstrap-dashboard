@@ -32,7 +32,7 @@ jobs:
           REMOTE_USER: u106957989
           REMOTE_PORT: '65002'
           TARGET: domains/codedthemes.com/public_html/demos/admin-templates/datta-able/bootstrap/free
-          EXCLUDE: '/node_modules/
+          EXCLUDE: '/node_modules/'
           
       - name: Read version
         id: version
