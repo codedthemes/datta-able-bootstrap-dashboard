@@ -33,27 +33,3 @@ jobs:
           REMOTE_PORT: '65002'
           TARGET: domains/codedthemes.com/public_html/demos/admin-templates/datta-able/bootstrap/free
           EXCLUDE: '/node_modules/'
-          
-      - name: Read version
-        id: version
-        run: echo "VERSION=$(jq -r .version package.json)" >> $GITHUB_ENV
-
-      - name: 📦 Create version ZIP
-        run: |
-          zip -r "datta-able-bootstrap-v${VERSION}.zip" . \
-            -x ".git/*" \
-            -x ".github/workflows/*" \
-            -x ".gitignore" \
-            -x "node_modules/*" 
-
-      - name: 🔑 Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v4
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: us-west-2
-
-      - name: 🚀 Upload ZIP to S3
-        run: |
-          aws s3 cp "datta-able-bootstrap-v${VERSION}.zip" \
-          "s3://${{ secrets.AWS_S3_BUCKET }}/DattaAble/Bootstrap/datta-able-bootstrap-v${VERSION}.zip"
