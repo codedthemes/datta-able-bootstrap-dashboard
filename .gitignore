@@ -69,8 +69,6 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
-.env.test
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -106,3 +104,4 @@ src/.DS_Store
 src/assets/images/.DS_Store
 src/assets/images/landing/.DS_Store
 src/assets/.DS_Store
+config.bat
